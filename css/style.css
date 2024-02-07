@@ -314,3 +314,11 @@ body {
   }
 }
 
+@media (max-width: 1310px){
+  html {
+    font-size: 10px;
+  }
+  .header {
+    min-height: 50vh;
+  }
+}
