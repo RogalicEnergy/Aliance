@@ -264,13 +264,13 @@ body {
 
 .steps-text {
   color: #828A99;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
-  margin-top: 12px;
-  margin-left: 9px;
-  margin-bottom: 20px;
-  word-spacing: 1px;
+  margin-top: .75rem;
+  margin-left: .5625rem;
+  margin-bottom: 1.25rem;
+  word-spacing: .0625rem;
 }
 
 .steps-link {
@@ -278,19 +278,19 @@ body {
   align-items: center;
   text-decoration: none;
   color: #5C8EE5;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 160%;
-  margin-left: 9px;
-  word-spacing: 2px;
+  margin-left: .5625rem;
+  word-spacing: .125rem;
 }
 
 .steps-link::before {
   content: '';
-  height: 1px;
+  height: .0625rem;
   background: #5C8EE5;
-  width: 40px;
-  margin-right: 20px;
+  width: 2.5rem;
+  margin-right: 1.25rem;
 }
 
 @media (max-width: 1750px){
