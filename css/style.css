@@ -201,13 +201,26 @@ body {
 
 .header-features-item {
   padding: 1.8125rem 3.1875rem;
+  min-height: 100%;
   border: 1px solid rgba(235, 235, 240, 0.20);
   width: 18rem;
 }
 
-.header-features-item:not(:last-child) {
-  border-right: none;
+.slider-buttons {
+  display: none;
+  height: 44px;
 }
+
+.slider-button-prev, .slider-button-next {
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid rgba(235, 235, 240, 0.20);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
 
 .header-features-text {
   font-size: 1rem;
@@ -240,7 +253,12 @@ body {
 }
 
 .steps-item {
-  max-width: 20.625rem;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0;
 }
 
 .steps-num {
@@ -304,7 +322,9 @@ body {
   margin-right: 1.25rem;
 }
 
-@media (max-width: 1750px){
+
+
+@media (max-width: 1750px) {
   html {
     font-size: 14px;
   }
@@ -316,7 +336,7 @@ body {
   }
 }
 
-@media (max-width: 1550px){
+@media (max-width: 1550px) {
   html {
     font-size: 13px;
   }
@@ -340,7 +360,7 @@ body {
   }
 }
 
-@media (max-width: 1415px){
+@media (max-width: 1415px) {
   html {
     font-size: 12px;
   }
@@ -351,7 +371,7 @@ body {
 
 }
 
-@media (max-width: 1240px){
+@media (max-width: 1240px) {
   .header-phone {
     display: none;
   }
@@ -364,6 +384,9 @@ body {
   }
   .container {
     max-width: 70rem;
+  }
+  .slider-buttons {
+    display: flex;
   }
 }
 
@@ -386,9 +409,22 @@ body {
   .header-nav-item:not(:last-child) {
     margin-right: 4%;
   }
+
+  .steps-button-group {
+    display: flex;
+    justify-content: flex-end;
+  }
+  .steps-button-elements {
+    background-color: #5C8EE5;
+    display: inline-block;
+    align-items: center;
+    width: 60px;
+    height: 31px;
+    padding: 6px 15px;
+  }
 }
 
-@media (max-width: 750px){
+@media (max-width: 750px) {
   .header-nav {
     display: none;
   }
@@ -513,5 +549,27 @@ body {
   }
   .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-10px);;
+  }
+
+  .header-title {
+    font-size: 4rem;
+  }
+  .header-content {
+    padding-top: 3rem;
+  }
+  .header-features-item {
+    max-width: 12rem;
+  }
+}
+
+@media (max-width: 560px) {
+  .container {
+    max-width: 90%;
+  }
+  .header-title {
+    font-size: 3rem;
+  }
+  .header-content {
+    padding-top: 2rem;
   }
 }
