@@ -47,18 +47,18 @@ const swiper = new Swiper('.swiper', {
     prevEl: '.slider-button-prev, .slider-button-prev-step',
   },
   breakpoints: {
-    // when window width is >= 320px
-    560: {
-      slidesPerView: 2,
+    250: {
+      slidesPerView: 1,
       centeredSlides: true,
       slidesOffsetBefore: -60,
       slidesOffsetAfter: -100,
     },
-    // when window width is >= 480px
+    560: {
+      slidesPerView: 2,
+    },
     750: {
       slidesPerView: 3,
     },
-    // when window width is >= 640px
     1024: {
       slidesPerView: 4,
     },
