@@ -43,8 +43,8 @@ const swiper = new Swiper('.swiper', {
   autoHeight: true,
   slidesPerView: 1,
   navigation: {
-    nextE1: '.slider-button-next',
-    prevE1: '.slider-button-prev',
+    nextEl: '.slider-button-next, .slider-button-next-step',
+    prevEl: '.slider-button-prev, .slider-button-prev-step',
   },
   breakpoints: {
     // when window width is >= 320px
@@ -67,4 +67,5 @@ const swiper = new Swiper('.swiper', {
     },
   }
 });
+
 
