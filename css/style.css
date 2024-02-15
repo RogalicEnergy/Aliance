@@ -23,8 +23,7 @@ body {
 
 .container {
   max-width: 95rem;
-  margin-left: 240px;
-  margin-right: 240px;
+  margin: auto;
 }
 
 .navbar {
@@ -307,6 +306,7 @@ body {
   line-height: 120%;
   display: flex;
   justify-content: start;
+  align-items: center;
 
 /*   align-items: center; */
   margin-left: .5625rem;
@@ -473,9 +473,9 @@ width: 24.375rem;
   bottom: 0;
   right: 0;
   z-index: -1;
-  margin-left: 3.125rem;
-
 }
+
+  ПРОБЛЕМА В КАРТИНКЕ!!!!ЛУЧШЕ СДЕЛАТЬ АДАПТИВ
 
 /* Медиа запросы */
 
@@ -531,7 +531,7 @@ width: 24.375rem;
     display: none;
   }
   .navbar {
-    height: 5rem;
+    height: 7.5rem;
   }
   .navbar-button {
     padding-left: 2rem;
@@ -588,6 +588,9 @@ width: 24.375rem;
 }
 
 @media (max-width: 750px) {
+  .container {
+    max-width: 90%;
+  }
   .header-nav {
     display: none;
   }
@@ -595,13 +598,36 @@ width: 24.375rem;
     flex-grow: 1;
     justify-content: center;
   }
+  .logo-svg {
+    max-width: 10.5rem;
+  }
+  .navbar-button {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+  .seporator {
+    height: 0.250rem;
+    margin-top: 5.9rem;
+}
+  .header-title {
+    font-size: 5rem;
+  }
+  .header-text {
+    font-size: 1.5rem;
+  }
+  .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.7rem 3.875rem;
+  }
   .mobile-menu-toggle {
     width: 80px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.5rem 3rem;
+    padding: 2.8rem 3.3rem;
     border-right: 1px solid rgba(235, 235, 240, 0.20);
   }
 
@@ -714,29 +740,53 @@ width: 24.375rem;
     transform: rotate(-45deg) translateY(-10px);;
   }
 
-  .header-title {
-    font-size: 4rem;
-  }
   .header-content {
     padding-top: 3rem;
   }
 
-}
-
-@media (max-width: 560px) {
-  .container {
-    max-width: 90%;
+  .header-features-item {
+    padding-top: 1rem;
+    padding-left: 2.25rem;
+    padding-bottom: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
   }
-  .header-title {
-    font-size: 3rem;
+  .header-features-text {
+    font-size: 1.5rem;
   }
-  .header-content {
-    padding-top: 2rem;
+  .section-title {
+    font-size: 3.8rem;
   }
-
+  .steps-num {
+    font-size: 5rem;
+  }
+  .steps-title {
+    font-size: 2rem;
+  }
+  .steps-text {
+    font-size: 1.5rem;
+  }
+  .steps-link {
+    font-size: 1.5rem;
+  }
+  .steps-button-elements {
+    padding: 10px 15px;
+    width: 7rem;
+    height: 4.4375rem;
+  }
   .card {
     flex-basis: 100%;
-    height: 429px
+    height: 47.8125rem;
+  }
+  .card-title {
+    font-size: 2rem;
+  }
+  .card-text {
+    font-size: 1.5rem;
+  }
+  .card-image {
+    width: 100%;
   }
 
 }
