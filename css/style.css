@@ -68,7 +68,7 @@ body {
   background-image: url('../img/header-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center bottom -1.875rem;
+  background-position: center bottom 0.125rem;
   position: relative;
 }
 
@@ -786,7 +786,7 @@ width: 24.375rem;
     font-size: 1.5rem;
   }
   .card-image {
-    width: 100%;
+    width: 80%;
   }
 
 }
