@@ -279,7 +279,6 @@ body {
   margin-top: 0.9rem;
   word-spacing: .625rem;
   letter-spacing: .0625rem;
-
 }
 
 .steps {
@@ -418,64 +417,72 @@ body {
   z-index: 0;
 }
 
-.cards-stamps {
+.trademark-cards {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
+
 }
 
-.card-stamps {
-  text-decoration: none;
+.trademark-card {
+  flex-basis: 50%;
   border: 1px solid #EBEBF0;
-  position: relative;
   text-decoration: none;
   transition: border 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-basis: 50%;
-  margin-top: 2.4375rem;
+  padding: 3.125rem;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  grid-template-rows: auto 2fr;
+  grid-column-gap: 3.125rem;
+  grid-template-areas: 
+  "logo title title"
+  "logo text text";
 }
 
-.card-stamps:hover {
-  border-color: #5C8EE5;
+.trademark-card-logo {
+  grid-area: logo;
+  fill: #828A99;
+  width: 100%; 
 }
 
-.card-stamps:hover .card-stamps-title {
-  color: #5C8EE5;
-}
-
-.card-stamps-content {
-padding: 3.125rem 25px;
-width: 24.375rem;
-}
-
-.card-stamps-title {
+.trademark-card-title {
+  display: grid;
+  grid-area: title;
+  align-self: center;
   color: #292D33;
-  font-size: 28px;
+  font-size: 1.75rem;
   font-weight: 400;
   line-height: 160%;
-  padding: 0;
   margin: 0;
 }
 
-.card-stamps-text {
-  color: #828A99;
-  font-size: 16px;
+.trademark-card-text {
+  grid-area: text;
+  color:  #828A99;
+  font-size: 1rem;
   font-weight: 400;
-  line-height: 140%;
+  line-height: 160%;
   margin-top: .625rem;
 }
-
-.card-image {
-  width: 90%;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  z-index: -1;
+.section-title-two {
+  font-family: 'Bebas Neue Regular';
+  color: #292D33;
+  font-size: 3.75rem;
+  font-weight: 400;
+  line-height: 120%;
+  margin-top: 0.9rem;
+  word-spacing: .625rem;
+  letter-spacing: .0625rem;
+  display: none;
 }
 
-  ПРОБЛЕМА В КАРТИНКЕ!!!!ЛУЧШЕ СДЕЛАТЬ АДАПТИВ
+.trademark-card:hover {
+  border-color: #5C8EE5;
+}
+.trademark-card:hover .trademark-card-logo {
+  fill: #5C8EE6;
+}
+.trademark-card:hover .trademark-card-title {
+  color: #5C8EE6;
+}
 
 /* Медиа запросы */
 
@@ -546,6 +553,9 @@ width: 24.375rem;
   .card {
     flex-basis: 50%;
   }
+  .trademark-card {
+    grid-template-columns: auto auto;
+  }
 
 }
 
@@ -555,6 +565,12 @@ width: 24.375rem;
   }
   .container {
     max-width: 65rem;
+  }
+  .trademark-cards {
+    flex-direction: column;
+  }
+  .trademark-card-text {
+    font-size: 1.50rem;
   }
 }
 
@@ -585,6 +601,7 @@ width: 24.375rem;
   .card-stamps {
     flex-basis: 100%;
   }
+
 }
 
 @media (max-width: 750px) {
@@ -608,7 +625,7 @@ width: 24.375rem;
   .seporator {
     height: 0.250rem;
     margin-top: 5.9rem;
-}
+  }
   .header-title {
     font-size: 5rem;
   }
@@ -788,5 +805,35 @@ width: 24.375rem;
   .card-image {
     width: 80%;
   }
+  .section-title {
+    display: none;
+  }
+  .section-title-two {
+    display: block;
+    font-size: 4.0625rem;
+    font-weight: 500;
+    letter-spacing: -.0625rem;
+  }
+  .trademark-card {
+    grid-template-areas: 
+    "logo title"
+    "text text";
+  }
+  .trademark-card-title {
+    font-size: 2.625rem;
+    line-height: 3.42rem;
+  }
+}
 
+@media (max-width: 570px) {
+  .container {
+    max-width: 90%;
+  }
+  .header-content {
+    padding-top: 2rem;
+  }
+  .trademark-card{
+    grid-template-columns: 100px auto;
+    padding: 1.875rem;
+  }
 }
