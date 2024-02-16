@@ -270,7 +270,7 @@ body {
 }
 
 
-.section-title {
+.section-title, .section-title-one {
   font-family: 'Bebas Neue Regular';
   color: #292D33;
   font-size: 3.75rem;
@@ -279,6 +279,7 @@ body {
   margin-top: 0.9rem;
   word-spacing: .625rem;
   letter-spacing: .0625rem;
+  display: block;
 }
 
 .steps {
@@ -306,10 +307,7 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
-
-/*   align-items: center; */
   margin-left: .5625rem;
-/*   margin-top: .1875rem; */
 }
 .steps-num::after {
   content: '';
@@ -341,7 +339,7 @@ body {
   word-spacing: .0625rem;
 }
 
-.steps-link {
+.button-link {
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -353,7 +351,7 @@ body {
   word-spacing: .125rem;
 }
 
-.steps-link:before {
+.button-link:before {
   content: '';
   height: .0625rem;
   background: #5C8EE5;
@@ -362,7 +360,7 @@ body {
   transition: width 0.2s;
 }
 
-.steps-link:hover::before {
+.button-link:hover::before {
   width: 3.75rem;
 }
 
@@ -474,6 +472,7 @@ body {
   display: none;
 }
 
+
 .trademark-card:hover {
   border-color: #5C8EE5;
 }
@@ -482,6 +481,35 @@ body {
 }
 .trademark-card:hover .trademark-card-title {
   color: #5C8EE6;
+}
+
+
+
+.founder {
+  position: relative;
+}
+
+.founder-photo {
+  position: absolute;
+  left: 0;
+  width: 40%;
+  top: 0;
+}
+
+.founder-content {
+  max-width: 45rem;
+}
+
+.founder-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.founder-text {
+  color: #828A99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%; 
 }
 
 /* Медиа запросы */
@@ -556,7 +584,9 @@ body {
   .trademark-card {
     grid-template-columns: auto auto;
   }
-
+  .founder-content {
+    max-width: 35rem;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -814,6 +844,12 @@ body {
     font-weight: 500;
     letter-spacing: -.0625rem;
   }
+  .section-title-one {
+    display: none;
+  }
+  .section-title {
+    display: block;
+  }
   .trademark-card {
     grid-template-areas: 
     "logo title"
@@ -822,6 +858,11 @@ body {
   .trademark-card-title {
     font-size: 2.625rem;
     line-height: 3.42rem;
+  }
+
+  .founder-photo {
+    position: relative;
+    width: 100%;
   }
 }
 
