@@ -368,6 +368,27 @@ body {
   width: 3.75rem;
 }
 
+.primary-buttons-wrapper {
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.primary-button-prev, 
+.primary-button-next {
+  background-color: #5C8EE5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 80px;
+  height: 100%;
+}
+
+.steps-buttons {
+  display: none;
+}
+
 /* Контейнер основной (Контрактное производство)*/
 
 .production {
@@ -592,6 +613,63 @@ body {
 }
 
 
+/* Контейнер основной (Блог)*/
+.blog-card {
+  display: flex;
+  position: relative;
+  min-height: 25rem;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  justify-content: flex-end;
+  padding: 3.125rem;
+}
+
+.blog-card::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(41, 45, 51, 0.60);
+  z-index: -1 ;
+}
+
+.blog-card-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.blog-card-title {
+  color: #FFF;
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: .625rem;
+  margin-top: 0;
+}
+
+.blog-card-text {
+  color: #FFF;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0;
+}
+
+.blog-slider-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1.875rem;
+  justify-content: space-between;
+}
+
 /* Медиа запросы */
 
 @media (max-width: 1750px) {
@@ -665,9 +743,7 @@ body {
   .container {
     max-width: 70rem;
   }
-  .slider-buttons {
-    display: flex;
-  }
+
   .card {
     flex-basis: 50%;
   }
@@ -696,6 +772,10 @@ body {
   .trademark-card-text {
     font-size: 1.50rem;
   }
+  .slider-buttons {
+    display: flex;
+  }
+
 }
 
 @media (max-width: 890px) {
@@ -709,18 +789,6 @@ body {
     margin-right: 4%;
   }
 
-  .steps-button-group {
-    display: flex;
-    justify-content: flex-end;
-  }
-  .steps-button-elements {
-    background-color: #5C8EE5;
-    display: inline-block;
-    align-items: center;
-    width: 60px;
-    height: 31px;
-    padding: 6px 15px;
-  }
 
   .card-stamps {
     flex-basis: 100%;
@@ -728,6 +796,19 @@ body {
 
   .clients-wrapper {
     flex-direction: column;
+  }
+
+  .primary-buttons-wrapper {
+    height: 40px;
+  }
+
+  .primary-button-prev, 
+  .primary-button-next { 
+  width: 60px;
+}
+
+  .steps-buttons {
+    display: flex;
   }
 
 }
@@ -915,11 +996,7 @@ body {
   .steps-link {
     font-size: 1.5rem;
   }
-  .steps-button-elements {
-    padding: 10px 15px;
-    width: 7rem;
-    height: 4.4375rem;
-  }
+
   .card {
     flex-basis: 100%;
     height: 47.8125rem;
