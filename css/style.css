@@ -17,15 +17,20 @@ body {
   font-family: 'Noto Sans', sans-serif;
 }
 
+/* Мобильное меню */
+
 .mobile-menu {
   display: none;
 }
 
+/* Контейнер шапки */
+
 .container {
-  max-width: 95rem;
+  max-width: 89rem;
   margin: auto;
 }
 
+/* Навигация в шапке */
 .navbar {
   display: flex;
   align-items: center;
@@ -59,6 +64,8 @@ body {
 .navbar-light .header-logo-path {
   fill: #292D33;
 }
+
+/* Контейнер шапки */
 .header {
   padding-top: 4.875rem;
   min-height: 80vh;
@@ -181,6 +188,8 @@ body {
   height: 100%;
 }
 
+/* Оновной блок (схема работы) */
+
 .seporator {
   background: #5C8EE5;
   width: 10rem;
@@ -259,14 +268,9 @@ body {
   margin-top: 1.125rem;
 }
 
-
 .section {
-  margin-top: 9.375rem;
-  margin-bottom: 7.375rem;
-}
-
-.section-production {
-  margin-bottom: 8.7rem;
+  margin-top: 10.1rem;
+  margin-bottom: -3.625rem;
 }
 
 
@@ -277,7 +281,7 @@ body {
   font-weight: 400;
   line-height: 120%;
   margin-top: 0.9rem;
-  word-spacing: .625rem;
+  word-spacing: 0.3rem;
   letter-spacing: .0625rem;
   display: block;
 }
@@ -364,6 +368,12 @@ body {
   width: 3.75rem;
 }
 
+/* Контейнер основной (Контрактное производство)*/
+
+.production {
+  margin-bottom: -1.3rem;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
@@ -415,9 +425,15 @@ body {
   z-index: 0;
 }
 
+
+/* Контейнер основной (Собственные торговые марки) */
+
+.trademark {
+  margin-bottom: 12rem;
+}
+
 .trademark-cards {
   display: flex;
-
 }
 
 .trademark-card {
@@ -472,7 +488,6 @@ body {
   display: none;
 }
 
-
 .trademark-card:hover {
   border-color: #5C8EE5;
 }
@@ -484,8 +499,9 @@ body {
 }
 
 
-
+/* Контейнер основной (Основатель)*/
 .founder {
+  min-height: 41.25rem;
   position: relative;
 }
 
@@ -493,11 +509,14 @@ body {
   position: absolute;
   left: 0;
   width: 40%;
-  top: 0;
+  top: -1.625rem;
+  height: 100%;
+  width: 44%;
+  object-fit: cover;
 }
 
 .founder-content {
-  max-width: 45rem;
+  max-width: 44rem;
 }
 
 .founder-content-wrapper {
@@ -512,6 +531,68 @@ body {
   line-height: 160%; 
 }
 
+/* Контейнер основной (Клиенты)*/
+
+.clients {
+  margin-top: 12rem;
+}
+
+.clients-wrapper {
+  display: flex;
+  gap: 3.125rem;
+}
+
+.clients-content {
+  flex-basis: 50%;
+}
+
+.clients-list {
+  list-style-type: none;
+  padding: 0;
+  columns: 2 auto;
+}
+
+.clients-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  color: #292D33;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  padding-bottom: 1.25rem;
+}
+
+.clients-logo-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: 10;
+  padding-top: 1.375rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.clients-logo-item {
+  background-image: url(../img/client.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 69.242px;
+  height: 10rem;
+  flex-basis: 33%;
+  border: 1px solid #EBEBF0;
+}
+
+.clients-logo-item:hover {
+  background-image: url(../img/client1.png);
+}
+
+.clients-logo {
+  max-width: 100%;
+}
+
+
 /* Медиа запросы */
 
 @media (max-width: 1750px) {
@@ -523,6 +604,10 @@ body {
   }
   .header {
     min-height: 70vh;
+  }
+  .container {
+    max-width: 92rem;
+    margin: auto;
   }
 }
 
@@ -557,8 +642,14 @@ body {
   .header {
     min-height: 50vh;
   }
-
-
+  .container {
+    max-width: 84rem;
+    margin: auto;
+  }
+  .clients-content {
+    flex-basis: 62%;
+  }
+  
 }
 
 @media (max-width: 1240px) {
@@ -587,6 +678,10 @@ body {
   .founder-content {
     max-width: 35rem;
   }
+  .clients-content {
+    flex-basis: 113%;
+  }
+  
 }
 
 @media (max-width: 1050px) {
@@ -594,7 +689,7 @@ body {
     font-size: 10px;
   }
   .container {
-    max-width: 65rem;
+    max-width: 76rem;
   }
   .trademark-cards {
     flex-direction: column;
@@ -632,6 +727,10 @@ body {
     flex-basis: 100%;
   }
 
+  .clients-wrapper {
+    flex-direction: column;
+  }
+
 }
 
 @media (max-width: 750px) {
@@ -653,7 +752,7 @@ body {
     padding-right: 3.5rem;
   }
   .seporator {
-    height: 0.250rem;
+    height: 0.23rem;
     margin-top: 5.9rem;
   }
   .header-title {
@@ -864,6 +963,14 @@ body {
     position: relative;
     width: 100%;
   }
+
+  .founder-content-wrapper {
+    justify-content: start;
+  }
+
+  .founder-content {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 570px) {
@@ -876,5 +983,11 @@ body {
   .trademark-card{
     grid-template-columns: 100px auto;
     padding: 1.875rem;
+  }
+  .clients-list {
+    columns: 1;
+  }
+  .clients-logo-item {
+    flex-basis: 50%;
   }
 }
