@@ -269,8 +269,8 @@ body {
 }
 
 .section {
-  margin-top: 10.1rem;
-  margin-bottom: -3.625rem;
+  margin-top: 9.1rem;
+/*   margin-bottom: 9.375rem; */
 }
 
 
@@ -279,8 +279,8 @@ body {
   color: #292D33;
   font-size: 3.75rem;
   font-weight: 400;
-  line-height: 120%;
-  margin-top: 0.9rem;
+  line-height: 123%;
+  margin-top: 1.9rem;
   word-spacing: 0.3rem;
   letter-spacing: .0625rem;
   display: block;
@@ -393,6 +393,7 @@ body {
 
 .production {
   margin-bottom: -1.3rem;
+  margin-top: 5.5rem;
 }
 
 .cards {
@@ -450,7 +451,7 @@ body {
 /* Контейнер основной (Собственные торговые марки) */
 
 .trademark {
-  margin-bottom: 12rem;
+  margin-top: 9.125rem;
 }
 
 .trademark-cards {
@@ -524,13 +525,14 @@ body {
 .founder {
   min-height: 41.25rem;
   position: relative;
+  margin-top: 10.9375rem;
 }
 
 .founder-photo {
   position: absolute;
   left: 0;
   width: 40%;
-  top: -1.625rem;
+  top: -0.8rem;
   height: 100%;
   width: 44%;
   object-fit: cover;
@@ -555,7 +557,7 @@ body {
 /* Контейнер основной (Клиенты)*/
 
 .clients {
-  margin-top: 12rem;
+  margin-top: 8rem;
 }
 
 .clients-wrapper {
@@ -614,6 +616,10 @@ body {
 
 
 /* Контейнер основной (Блог)*/
+.blog {
+  margin-top: 9.875rem;
+}
+
 .blog-card {
   display: flex;
   position: relative;
@@ -668,6 +674,130 @@ body {
   align-items: center;
   margin-top: 1.875rem;
   justify-content: space-between;
+}
+
+/* Контейнер основной (Обратная связь)*/
+
+.bg-grey {
+  background: #F0F2F5;
+  position: relative;
+}
+
+.section-cta {
+  position: relative;
+  padding-top: 3.25rem;
+  padding-bottom: 5.25rem;
+  margin-top: 14.375rem;
+}
+
+.cta-image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 45rem;
+  width: 50%;
+  display: block;
+}
+
+.cta-form-wrapper {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.cta-form {
+  max-width: 52.5rem;
+}
+
+.cta-form-text {
+  color: #828A99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-top: 1.375rem;
+  margin-bottom: 2.5rem;
+  max-width: 40rem;
+}
+
+.input-group-wrapper {
+  display: flex;
+  gap: 1.875rem;
+
+}
+
+.input-group {
+  position: relative;
+  height: 4.125rem;
+  flex-grow: 1;
+  background-color: #F0F2F5;
+}
+
+.input {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 1.25rem 1.875rem;
+  border: 1px solid #E4E4EB;
+  background-color: transparent;
+}
+
+.input-group-label {
+  position: absolute;
+  cursor: text;
+  left: 2rem;
+  top: 1.3rem;
+  color: #828A99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  transition: top 0.2s, left 0.2s, font-size 0.2s;
+}
+
+.input:focus {
+  border: 1px solid #5C8EE5;
+  outline: 0;
+}
+
+.input:focus ~ .input-group-label,
+.input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
+  top: -0.5rem;
+  left: 1.25rem;
+  font-size: 10px;
+  background-color: inherit;
+  padding: 0 .625rem;
+}
+
+.cta-form-footer {
+  display: flex;
+  align-items: center;
+  margin-top: 1.875rem;
+  gap: 1.875rem;
+}
+
+.cta-form-button{
+  flex-shrink: 0;
+}
+
+.notify {
+  display: flex;
+  align-items: flex-start;
+  gap: .625rem;
+}
+
+.notify-icon {
+  flex-shrink: 0;
+
+}
+
+.notify-text {
+  max-width: 23.75rem;
+  margin: 0;
+  color: #828A99;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 160%;
 }
 
 /* Медиа запросы */
@@ -756,7 +886,10 @@ body {
   .clients-content {
     flex-basis: 113%;
   }
-  
+
+  .cta-image {
+    left: -9.25rem;
+  }
 }
 
 @media (max-width: 1050px) {
@@ -809,6 +942,15 @@ body {
 
   .steps-buttons {
     display: flex;
+  }
+
+  .cta-image {
+    display: none;
+  }
+
+  .cta-form-wrapper {
+    display: flex;
+    justify-content: center;
   }
 
 }
@@ -1065,5 +1207,32 @@ body {
   }
   .clients-logo-item {
     flex-basis: 50%;
+  }
+
+  .founder-text {
+    font-size: 1.5rem;
+  }
+
+  .input-group-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cta-form-text {
+    font-size: 1.5rem;
+  }
+
+  .cta-form-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .notify-text {
+    max-width: 100%;
+  }
+
+  .button-link {
+    font-size: 1.5rem;
   }
 }
