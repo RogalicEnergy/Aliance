@@ -96,5 +96,10 @@ const swiperBlog = new Swiper('.blog-slider', {
     nextEl: '.blog-button-next',
     prevEl: '.blog-button-prev',
   },
+  breakpoints: {
+    740: {
+      slidesPerView: 2,
+    },
+  }
 
 });
