@@ -800,6 +800,128 @@ body {
   line-height: 160%;
 }
 
+/* Контейнер основной (Обратная связь)*/
+
+.footer-top {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 12.5rem;
+  height: 3.75em;
+}
+
+.footer-info {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-style: normal;
+  color: #292D33;
+  gap: .625rem;
+}
+
+.footer-info-address,
+.footer-info-email {
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-phone {
+  color: #292D33;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 160%; 
+  text-decoration-line: underline;
+}
+
+.footer-social-link {
+  text-decoration: none;
+}
+
+.footer-seporator {
+  color: #EBEBF0;
+  background-color: #EBEBF0;
+}
+
+.footer-menu-title {
+  margin-top: 0;
+  margin-bottom: 1.875rem;
+  color: #292D33;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 160%;
+}
+
+.footer-bottom {
+  display: flex;
+  padding-top: 2.125rem;
+  padding-bottom: 0.125rem;
+}
+
+.footer-menu-list {
+  margin: 0;
+  padding-left: 1.25rem;
+  list-style: none;
+}
+
+.footer-menu-column-2 {
+  columns: 20rem auto;
+  min-width: 45rem;
+}
+
+.footer-menu-link {
+  text-decoration: none;
+  color: #828A99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: .9375rem;
+  display: block;
+}
+
+
+.footer-menu-link-bold {
+  color: #292D33;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 160%;
+  margin-bottom: 1.875rem;
+}
+
+.footer-menu-wrapper:last-child {
+  margin-left: 10.8rem;
+}
+
+.footer-wrapper {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #828A99;
+  font-style: normal;
+}
+
+
+.footer-wrapper,
+.footer-legal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4.375rem;
+}
+
+.footer-copyright,
+.footer-policy {
+  font-size: .75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: inherit;
+}
+
 /* Медиа запросы */
 
 @media (max-width: 1750px) {
@@ -916,7 +1038,7 @@ body {
     font-size: 9px;
   }
   .container {
-    max-width: 60rem;
+    max-width: 82rem;
   } 
   .header-nav-item:not(:last-child) {
     margin-right: 4%;
@@ -1189,6 +1311,7 @@ body {
   .founder-content {
     max-width: 100%;
   }
+
 }
 
 @media (max-width: 570px) {
