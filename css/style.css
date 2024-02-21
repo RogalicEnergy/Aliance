@@ -51,7 +51,8 @@ body {
   height: 4.625rem;
 }
 
-.phone-icon {
+
+.mark-icon, .phone-icon {
   fill: #5C8EE6;
 }
 
@@ -1254,7 +1255,7 @@ body {
 
   .mobile-menu-nav {
     list-style: none;
-    padding: 0;
+    padding-top: 1.5rem;
   }
   .mobile-menu-nav-item {
     margin-bottom: 2rem;
@@ -1294,6 +1295,7 @@ body {
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
+    margin-top: .75rem;
   }
   .mobile-info-address, .mobile-info-email {
     font-style: normal;
@@ -1312,10 +1314,10 @@ body {
     display: none;
   }
   .close-menu .mobile-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(12px);
+    transform: rotate(43deg) translateY(12px);
   }
   .close-menu .mobile-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-10px);;
+    transform: rotate(-50deg) translateY(-9px);;
   }
 
   .header-content {
@@ -1400,6 +1402,21 @@ body {
     max-width: 100%;
   }
 
+  .footer-top {
+    flex-direction: column;
+  }
+  .footer-menu-column-2 {
+    columns: auto;
+  }
+  .footer-bottom {
+    justify-content: center;
+  }
+  .footer-menu-wrapper:last-child {
+    margin-left: 0;
+  }
+  .footer-menu-wrapper {
+    width: 100%;
+  }
 }
 
 @media (max-width: 570px) {
@@ -1445,5 +1462,78 @@ body {
 
   .button-link {
     font-size: 1.5rem;
+  }
+}
+
+
+@media (max-width: 430px) {
+  .footer-logo {
+    width: 17.5rem;
+    height: 10.75em;
+  }
+
+  .footer-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: .75rem;
+    gap: .625rem;
+  }
+
+  .footer-phone {
+    font-size: 3rem;
+    padding-bottom: 1.3125rem;
+  }
+  .footer-info-address,
+  .footer-info-email {
+    padding-bottom: .75rem;
+    font-size: 1.5rem;
+  }
+
+  .logo-svg {
+    max-width: 17.5rem;
+  }
+
+  .footer-top {
+    align-items: start;
+  }
+  .footer-bottom {
+    flex-direction: column;
+  }
+  .footer-wrapper, .footer-legal {
+    flex-direction: column;
+    align-items: start;
+    gap: .625rem;
+  }
+  .footer-menu-item {
+    width: 100%;
+  }
+  .footer-menu-column-2 {
+    min-width: 36rem;
+  }
+  .footer-menu-link {
+    font-size: 1.5rem;
+  }
+
+  .footer-menu-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .footer-copyright {
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: .625rem;
+  }
+
+  .footer-policy {
+    font-size: 1.3rem;
+    margin-bottom: .625rem;
+
+  }
+
+  .made-in {
+    font-size: 1.3rem;
+    padding-right: .625rem;
   }
 }
