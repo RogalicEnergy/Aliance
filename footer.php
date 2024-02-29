@@ -7,7 +7,7 @@
             <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
             <div class="input-group-wrapper">
               <div class="input-group">
-                <input id="user-name" type="text" class="input" name="username" placeholder=" ">
+                <input id="user-name" type="text" class="input" name="username" placeholder=" " require maxlength="100">
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
               <!-- /.input-group -->
