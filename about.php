@@ -65,7 +65,7 @@
           <use href="img/sprite.svg#mark"></use>
         </svg>
         <address class="mobile-info-address">
-          г. Мосвка, Холодильный пер. 4к1с8
+          г. Москва, Холодильный пер. 4к1с8
         </address>
       </div>
       <div class="mobile-info">

@@ -300,7 +300,8 @@
               <use href="img/sprite.svg#AGTECH"></use>
             </svg>
             <h3 class="trademark-card-title">Автохимия AG-Tech</h3>
-            <p class="trademark-card-text">Для современного мира разбавленное изрядной долей эмпатии, рациональное мышление создаёт предпосылки для поставленных обществом задач.</p>
+            <p class="trademark-card-text">Для современного мира разбавленное изрядной долей эмпатии, рациональное мышление создаёт предпосылки для поставленных общ
+              вом задач.</p>
           </div>
           <div class="trademark-card">
             <svg class="trademark-card-logo">
