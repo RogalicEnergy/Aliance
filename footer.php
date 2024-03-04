@@ -144,10 +144,10 @@
       </div>
       <!-- /.container -->
     </footer>
-    <div class="modal">
+    <div class="modal" id="feedback-modal">
       <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
           <svg class="close-icon" width="24" height="24">
             <use href="img/sprite.svg#close"></use>
           </svg>
@@ -177,6 +177,19 @@
           </div>
           <!-- /.modal-group-vertical -->
         </form>
+      </div>
+    </div>
+    <div class="modal" id="alert-modal">
+      <div class="modal-dialog" id="alert-modal">
+        <img src="img/alert.png" alt="Спасибо за заявку" width="360" height="310">
+        <h2 class="modal-title">Спасибо за заявку!</h2>
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">
+          <svg class="close-icon" width="24" height="24">
+            <use href="img/sprite.svg#close"></use>
+          </svg>
+        </a>
+        <p class="modal-text">Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
+        <button type="submit" class="button modal-form-button">Вернуться на главную</button>
       </div>
     </div>
     <script src="js/swiper-bundle.min.js"></script>
