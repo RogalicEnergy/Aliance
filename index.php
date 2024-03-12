@@ -244,7 +244,11 @@
               <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
             </div>
             <!-- /.card-content -->
-            <img src="img/0503577001614868834 1.png" alt="Автомобильная химия" class="card-image">
+            <picture  class="card-image">
+              <source type="image/webp" srcset="img/0503577001614868834.webp">
+              <source type="image/jpeg" srcset="img/0503577001614868834.png">
+              <img src="img/0503577001614868834.png" alt="Автомобильная химия">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -252,7 +256,11 @@
               <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
             </div>
             <!-- /.card-content -->
-            <img src="img/card.png" alt="Бытовая химия" class="card-image">
+            <picture  class="card-image">
+              <source type="image/webp" srcset="img/card.webp">
+              <source type="image/jpeg" srcset="img/card.png">
+              <img src="img/card.png" alt="Бытовая химия">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -260,7 +268,11 @@
               <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
             </div>
             <!-- /.card-content -->
-            <img src="img/card1.png" alt="Дезинфицирующие средства" class="card-image">
+            <picture  class="card-image">
+              <source type="image/webp" srcset="img/card1.webp">
+              <source type="image/jpeg" srcset="img/card1.png">
+              <img src="img/card1.png" alt="Дезинфицирующие средства">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -268,7 +280,11 @@
               <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
             </div>
             <!-- /.card-content -->
-            <img src="img/card1.png" alt="Пищевые аэрозоли" class="card-image">
+            <picture  class="card-image">
+              <source type="image/webp" srcset="img/card1.webp">
+              <source type="image/jpeg" srcset="img/card1.png">
+              <img src="img/card1.png" alt="Пищевые аэрозоли">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -276,7 +292,11 @@
               <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
             </div>
             <!-- /.card-content -->
-            <img src="img/0503577001614868834 1.png" alt="Косметическая продукция" class="card-image">
+            <picture  class="card-image">
+              <source type="image/webp" srcset="img/0503577001614868834.webp">
+              <source type="image/jpeg" srcset="img/0503577001614868834.png">
+              <img src="img/0503577001614868834.png" alt="Косметическая продукция">
+            </picture>
           </a>
           <a href="#" class="card">
             <div class="card-content">
@@ -284,7 +304,11 @@
               <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
             </div>
             <!-- /.card-content -->
-            <img src="img/card.png" alt="" class="card-image">
+            <picture  class="card-image">
+              <source type="image/webp" srcset="img/card.webp">
+              <source type="image/jpeg" srcset="img/card.png">
+              <img src="img/card.png" alt="Краски аэрозольные">
+            </picture>
           </a>
         </div>
       </div>
@@ -293,7 +317,11 @@
     include_once('./template-parts/trademarks-block.php')?>
     <!-- /.section trademark -->
     <section class="section founder">
-      <img src="img/founder.jpg" alt="fouder" class="founder-photo">
+    <picture  class="founder-photo">
+      <source type="image/webp" srcset="img/founder.webp">
+      <source type="image/jpeg" srcset="img/founder.jpg">
+      <img src="img/founder.jpg" alt="fouder">
+    </picture>
       <div class="container">
         <div class="founder-content-wrapper">
           <div class="founder-content">
@@ -385,31 +413,67 @@
           <div class="clients-logo">
             <div class="clients-logo-list">
               <a href="#" class="clients-logo-item">
-                <img src="img/client1.png" alt="">
+                <picture>
+                  <source type="image/webp" srcset="img/client1.webp">
+                  <source type="image/jpeg" srcset="img/client1.png">
+                  <img src="img/client1.png" alt=" ">
+                </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <img src="img/client1.png" alt="">
+                <picture>
+                  <source type="image/webp" srcset="img/client1.webp">
+                  <source type="image/jpeg" srcset="img/client1.png">
+                  <img src="img/client1.png" alt=" ">
+                </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <img src="img/client1.png" alt="">
+                <picture>
+                  <source type="image/webp" srcset="img/client1.webp">
+                  <source type="image/jpeg" srcset="img/client1.png">
+                  <img src="img/client1.png" alt=" ">
+                </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <img src="img/client1.png" alt="">
+              <picture>
+                  <source type="image/webp" srcset="img/client1.webp">
+                  <source type="image/jpeg" srcset="img/client1.png">
+                  <img src="img/client1.png" alt=" ">
+                </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <img src="img/client1.png" alt="">
+              <picture>
+                  <source type="image/webp" srcset="img/client1.webp">
+                  <source type="image/jpeg" srcset="img/client1.png">
+                  <img src="img/client1.png" alt=" ">
+                </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <img src="img/client1.png" alt="">
+              <picture>
+                  <source type="image/webp" srcset="img/client1.webp">
+                  <source type="image/jpeg" srcset="img/client1.png">
+                  <img src="img/client1.png" alt=" ">
+                </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <img src="img/client1.png" alt="">
+              <picture>
+                  <source type="image/webp" srcset="img/client1.webp">
+                  <source type="image/jpeg" srcset="img/client1.png">
+                  <img src="img/client1.png" alt=" ">
+                </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <img src="img/client1.png" alt="">
+                <picture>
+                  <source type="image/webp" srcset="img/client1.webp">
+                  <source type="image/jpeg" srcset="img/client1.png">
+                  <img src="img/client1.png" alt=" ">
+                </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <img src="img/client1.png" alt="">
+                <picture>
+                  <source type="image/webp" srcset="img/client1.webp">
+                  <source type="image/jpeg" srcset="img/client1.png">
+                  <img src="img/client1.png" alt=" ">
+                </picture>
               </a>
             </div>
           </div>
@@ -428,17 +492,29 @@
           <div class="swiper-wrapper">
             <!-- Slides -->
             <a href="#" class="swiper-slide blog-card">
-              <img src="img/blog/blog-photo.jpg" alt="" class="blog-card-image">
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="img/blog/blog-photo.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+                <img src="img/blog/blog-photo.jpg" alt="Современная методология разработки">
+              </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-              <img src="img/blog/blog-post.jpg" alt="" class="blog-card-image">
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="img/blog/blog-post.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-post.jpg">
+                <img src="img/blog/blog-post.jpg" alt="Современная методология разработки">
+              </picture>
               <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
               <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
             </a>
             <a href="#" class="swiper-slide blog-card">
-              <img src="img/blog/blog-photo.jpg" alt="" class="blog-card-image">
+              <picture class="blog-card-image">
+                <source type="image/webp" srcset="img/blog/blog-photo.webp">
+                <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+                <img src="img/blog/blog-photo.jpg" alt="Современная методология разработки">
+              </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
             </a>
