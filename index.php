@@ -3,12 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/swiper-bundle.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <script>/*! modernizr 3.6.0 (Custom Build) | MIT *
+ * https://modernizr.com/download/?-webp-setclasses !*/
+!function(e,n,A){function o(e,n){return typeof e===n}function t(){var e,n,A,t,a,i,l;for(var f in r)if(r.hasOwnProperty(f)){if(e=[],n=r[f],n.name&&(e.push(n.name.toLowerCase()),n.options&&n.options.aliases&&n.options.aliases.length))for(A=0;A<n.options.aliases.length;A++)e.push(n.options.aliases[A].toLowerCase());for(t=o(n.fn,"function")?n.fn():n.fn,a=0;a<e.length;a++)i=e[a],l=i.split("."),1===l.length?Modernizr[l[0]]=t:(!Modernizr[l[0]]||Modernizr[l[0]]instanceof Boolean||(Modernizr[l[0]]=new Boolean(Modernizr[l[0]])),Modernizr[l[0]][l[1]]=t),s.push((t?"":"no-")+l.join("-"))}}function a(e){var n=u.className,A=Modernizr._config.classPrefix||"";if(c&&(n=n.baseVal),Modernizr._config.enableJSClass){var o=new RegExp("(^|\\s)"+A+"no-js(\\s|$)");n=n.replace(o,"$1"+A+"js$2")}Modernizr._config.enableClasses&&(n+=" "+A+e.join(" "+A),c?u.className.baseVal=n:u.className=n)}function i(e,n){if("object"==typeof e)for(var A in e)f(e,A)&&i(A,e[A]);else{e=e.toLowerCase();var o=e.split("."),t=Modernizr[o[0]];if(2==o.length&&(t=t[o[1]]),"undefined"!=typeof t)return Modernizr;n="function"==typeof n?n():n,1==o.length?Modernizr[o[0]]=n:(!Modernizr[o[0]]||Modernizr[o[0]]instanceof Boolean||(Modernizr[o[0]]=new Boolean(Modernizr[o[0]])),Modernizr[o[0]][o[1]]=n),a([(n&&0!=n?"":"no-")+o.join("-")]),Modernizr._trigger(e,n)}return Modernizr}var s=[],r=[],l={_version:"3.6.0",_config:{classPrefix:"",enableClasses:!0,enableJSClass:!0,usePrefixes:!0},_q:[],on:function(e,n){var A=this;setTimeout(function(){n(A[e])},0)},addTest:function(e,n,A){r.push({name:e,fn:n,options:A})},addAsyncTest:function(e){r.push({name:null,fn:e})}},Modernizr=function(){};Modernizr.prototype=l,Modernizr=new Modernizr;var f,u=n.documentElement,c="svg"===u.nodeName.toLowerCase();!function(){var e={}.hasOwnProperty;f=o(e,"undefined")||o(e.call,"undefined")?function(e,n){return n in e&&o(e.constructor.prototype[n],"undefined")}:function(n,A){return e.call(n,A)}}(),l._l={},l.on=function(e,n){this._l[e]||(this._l[e]=[]),this._l[e].push(n),Modernizr.hasOwnProperty(e)&&setTimeout(function(){Modernizr._trigger(e,Modernizr[e])},0)},l._trigger=function(e,n){if(this._l[e]){var A=this._l[e];setTimeout(function(){var e,o;for(e=0;e<A.length;e++)(o=A[e])(n)},0),delete this._l[e]}},Modernizr._q.push(function(){l.addTest=i}),Modernizr.addAsyncTest(function(){function e(e,n,A){function o(n){var o=n&&"load"===n.type?1==t.width:!1,a="webp"===e;i(e,a&&o?new Boolean(o):o),A&&A(n)}var t=new Image;t.onerror=o,t.onload=o,t.src=n}var n=[{uri:"data:image/webp;base64,UklGRiQAAABXRUJQVlA4IBgAAAAwAQCdASoBAAEAAwA0JaQAA3AA/vuUAAA=",name:"webp"},{uri:"data:image/webp;base64,UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAABBxAR/Q9ERP8DAABWUDggGAAAADABAJ0BKgEAAQADADQlpAADcAD++/1QAA==",name:"webp.alpha"},{uri:"data:image/webp;base64,UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA",name:"webp.animation"},{uri:"data:image/webp;base64,UklGRh4AAABXRUJQVlA4TBEAAAAvAAAAAAfQ//73v/+BiOh/AAA=",name:"webp.lossless"}],A=n.shift();e(A.name,A.uri,function(A){if(A&&"load"===A.type)for(var o=0;o<n.length;o++)e(n[o].name,n[o].uri)})}),t(),a(s),delete l.addTest,delete l.addAsyncTest;for(var p=0;p<Modernizr._q.length;p++)Modernizr._q[p]();e.Modernizr=Modernizr}(window,document);</script>
   <title>Aliance Production</title>
 </head>
   <body class="front-page">
@@ -244,10 +242,10 @@
               <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
             </div>
             <!-- /.card-content -->
-            <picture  class="card-image">
-              <source type="image/webp" srcset="img/0503577001614868834.webp">
-              <source type="image/jpeg" srcset="img/0503577001614868834.png">
-              <img src="img/0503577001614868834.png" alt="Автомобильная химия">
+            <picture class="card-image">
+              <source type="image/webp" srcset="img/auto-him.webp">
+              <source type="image/jpeg" srcset="img/auto-him.png">
+              <img src="img/auto-him.png" alt="Автомобильная химия">
             </picture>
           </a>
           <a href="#" class="card">
@@ -256,10 +254,10 @@
               <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
             </div>
             <!-- /.card-content -->
-            <picture  class="card-image">
-              <source type="image/webp" srcset="img/card.webp">
-              <source type="image/jpeg" srcset="img/card.png">
-              <img src="img/card.png" alt="Бытовая химия">
+            <picture class="card-image">
+              <source type="image/webp" srcset="img/household.webp">
+              <source type="image/jpeg" srcset="img/household.png">
+              <img src="img/household.png" alt="Бытовая химия">
             </picture>
           </a>
           <a href="#" class="card">
@@ -268,10 +266,10 @@
               <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
             </div>
             <!-- /.card-content -->
-            <picture  class="card-image">
-              <source type="image/webp" srcset="img/card1.webp">
-              <source type="image/jpeg" srcset="img/card1.png">
-              <img src="img/card1.png" alt="Дезинфицирующие средства">
+            <picture class="card-image">
+              <source type="image/webp" srcset="img/disinfectants.webp">
+              <source type="image/jpeg" srcset="img/disinfectants.png">
+              <img src="img/disinfectants.png" alt="Дезинфицирующие средства">
             </picture>
           </a>
           <a href="#" class="card">
@@ -280,10 +278,10 @@
               <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
             </div>
             <!-- /.card-content -->
-            <picture  class="card-image">
-              <source type="image/webp" srcset="img/card1.webp">
-              <source type="image/jpeg" srcset="img/card1.png">
-              <img src="img/card1.png" alt="Пищевые аэрозоли">
+            <picture class="card-image">
+              <source type="image/webp" srcset="img/disinfectants.webp">
+              <source type="image/jpeg" srcset="img/disinfectants.png">
+              <img src="img/disinfectants.png" alt="Пищевые аэрозоли">
             </picture>
           </a>
           <a href="#" class="card">
@@ -292,10 +290,10 @@
               <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
             </div>
             <!-- /.card-content -->
-            <picture  class="card-image">
-              <source type="image/webp" srcset="img/0503577001614868834.webp">
-              <source type="image/jpeg" srcset="img/0503577001614868834.png">
-              <img src="img/0503577001614868834.png" alt="Косметическая продукция">
+            <picture class="card-image">
+              <source type="image/webp" srcset="img/auto-him.webp">
+              <source type="image/jpeg" srcset="img/auto-him.png">
+              <img src="img/auto-him.png" alt="Косметическая продукция">
             </picture>
           </a>
           <a href="#" class="card">
@@ -304,10 +302,10 @@
               <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
             </div>
             <!-- /.card-content -->
-            <picture  class="card-image">
-              <source type="image/webp" srcset="img/card.webp">
-              <source type="image/jpeg" srcset="img/card.png">
-              <img src="img/card.png" alt="Краски аэрозольные">
+            <picture class="card-image">
+              <source type="image/webp" srcset="img/household.webp">
+              <source type="image/jpeg" srcset="img/household.png">
+              <img src="img/household.png" alt="Краски аэрозольные">
             </picture>
           </a>
         </div>
@@ -317,11 +315,11 @@
     include_once('./template-parts/trademarks-block.php')?>
     <!-- /.section trademark -->
     <section class="section founder">
-    <picture  class="founder-photo">
-      <source type="image/webp" srcset="img/founder.webp">
-      <source type="image/jpeg" srcset="img/founder.jpg">
-      <img src="img/founder.jpg" alt="fouder">
-    </picture>
+      <picture  class="founder-photo">
+        <source type="image/webp" srcset="img/founder.webp">
+        <source type="image/jpeg" srcset="img/founder.jpg">
+        <img src="img/founder.jpg" alt="fouder">
+      </picture>
       <div class="container">
         <div class="founder-content-wrapper">
           <div class="founder-content">
@@ -410,73 +408,71 @@
             </ul>
           </div>
           <!-- /.clients-content -->
-          <div class="clients-logo">
             <div class="clients-logo-list">
               <a href="#" class="clients-logo-item">
-                <picture>
+                <picture class="clients-logo">
                   <source type="image/webp" srcset="img/client1.webp">
                   <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt=" ">
+                  <img src="img/client1.png" alt="logo">
                 </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <picture>
+                <picture class="clients-logo">
                   <source type="image/webp" srcset="img/client1.webp">
                   <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt=" ">
+                  <img src="img/client1.png" alt="logo">
                 </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <picture>
+                <picture class="clients-logo">
                   <source type="image/webp" srcset="img/client1.webp">
                   <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt=" ">
+                  <img src="img/client1.png" alt="logo">
                 </picture>
               </a>
               <a href="#" class="clients-logo-item">
-              <picture>
+                <picture class="clients-logo">
                   <source type="image/webp" srcset="img/client1.webp">
                   <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt=" ">
+                  <img src="img/client1.png" alt="logo">
                 </picture>
               </a>
               <a href="#" class="clients-logo-item">
-              <picture>
+                <picture class="clients-logo">
                   <source type="image/webp" srcset="img/client1.webp">
                   <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt=" ">
+                  <img src="img/client1.png" alt="logo">
                 </picture>
               </a>
               <a href="#" class="clients-logo-item">
-              <picture>
+                <picture class="clients-logo">
                   <source type="image/webp" srcset="img/client1.webp">
                   <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt=" ">
+                  <img src="img/client1.png" alt="logo">
                 </picture>
               </a>
               <a href="#" class="clients-logo-item">
-              <picture>
+                <picture class="clients-logo">
                   <source type="image/webp" srcset="img/client1.webp">
                   <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt=" ">
+                  <img src="img/client1.png" alt="logo">
                 </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <picture>
+                <picture class="clients-logo">
                   <source type="image/webp" srcset="img/client1.webp">
                   <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt=" ">
+                  <img src="img/client1.png" alt="logo">
                 </picture>
               </a>
               <a href="#" class="clients-logo-item">
-                <picture>
+                <picture class="clients-logo">
                   <source type="image/webp" srcset="img/client1.webp">
                   <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt=" ">
+                  <img src="img/client1.png" alt="logo">
                 </picture>
               </a>
             </div>
-          </div>
           <!-- /.clients-logo -->
         </div>
         <!-- /.clients-wrapper -->
@@ -494,8 +490,8 @@
             <a href="#" class="swiper-slide blog-card">
               <picture class="blog-card-image">
                 <source type="image/webp" srcset="img/blog/blog-photo.webp">
-                <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
-                <img src="img/blog/blog-photo.jpg" alt="Современная методология разработки">
+                <source type="image/jpg" srcset="img/blog/blog-photo.jpg">
+                <img src="img/blog/blog-photo.jpg" alt="Современная методология разработки" width="705" height="400">
               </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
@@ -504,7 +500,7 @@
               <picture class="blog-card-image">
                 <source type="image/webp" srcset="img/blog/blog-post.webp">
                 <source type="image/jpeg" srcset="img/blog/blog-post.jpg">
-                <img src="img/blog/blog-post.jpg" alt="Современная методология разработки">
+                <img src="img/blog/blog-post.jpg" alt="Современная методология разработки" width="705" height="400">
               </picture>
               <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
               <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
@@ -513,7 +509,7 @@
               <picture class="blog-card-image">
                 <source type="image/webp" srcset="img/blog/blog-photo.webp">
                 <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
-                <img src="img/blog/blog-photo.jpg" alt="Современная методология разработки">
+                <img src="img/blog/blog-photo.jpg" alt="Современная методология разработки" width="705" height="400">
               </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>

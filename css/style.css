@@ -1,3 +1,8 @@
+@import url("normalize.css");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;600;700&display=swap");
+@import url("swiper-bundle.min.css");
+
+
 * {
   box-sizing: border-box;
 }
@@ -89,8 +94,11 @@ body {
   min-height: 80vh;
 }
 
+.no-webp .header-image {
+  background-image: url("../img/header-bg.jpeg");
+}
 .header-image {
-  background-image: url('../img/header-bg.jpg');
+  background-image: url('../img/header-bg.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom 0.125rem;
@@ -459,9 +467,8 @@ body {
 }
 
 .card-image {
-  width: 90%;
   position: absolute;
-  bottom: 0;
+  bottom: -0.3125rem;
   right: 0;
   z-index: 0;
 }
@@ -542,7 +549,6 @@ body {
 
 /* Контейнер основной (Основатель)*/
 .founder {
-  min-height: 41.25rem;
   position: relative;
   margin-top: 10.9375rem;
 }
@@ -553,8 +559,8 @@ body {
   width: 40%;
   top: -0.8rem;
   height: 100%;
-  width: 44%;
   object-fit: cover;
+  min-height: 41.25rem;
 }
 
 .founder-content {
@@ -653,7 +659,7 @@ body {
 .blog-card::before {
   content: '';
   position: absolute;
-  width: 100%;
+  width: 101.3%;
   height: 100%;
   left: 0;
   top: 0;
@@ -665,8 +671,8 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100%;
-  height: 100%;
+  width: 705px;
+  height: 400px;
   object-fit: cover;
   z-index: -2;
 }
@@ -1059,8 +1065,12 @@ body {
   padding-top: 6px;
 }
 
-.page-header-bg-image {
+.no-webp .page-header-bg-image {
   background-image: url("../img/blog/blog-photo-bg.png");
+}
+
+.page-header-bg-image {
+  background-image: url("../img/blog/blog-photo-bg.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -1485,9 +1495,6 @@ ol.breadcrumb {
   }
   .card-text {
     font-size: 1.5rem;
-  }
-  .card-image {
-    width: 80%;
   }
   .section-title {
     display: none;
