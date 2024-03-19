@@ -245,7 +245,7 @@
             <picture class="card-image">
               <source type="image/webp" srcset="img/auto-him.webp">
               <source type="image/jpeg" srcset="img/auto-him.png">
-              <img src="img/auto-him.png" alt="Автомобильная химия">
+              <img src="img/auto-him.png" alt="Автомобильная химия" width="100%">
             </picture>
           </a>
           <a href="#" class="card">
@@ -257,7 +257,7 @@
             <picture class="card-image">
               <source type="image/webp" srcset="img/household.webp">
               <source type="image/jpeg" srcset="img/household.png">
-              <img src="img/household.png" alt="Бытовая химия">
+              <img src="img/household.png" alt="Бытовая химия" width="100%">
             </picture>
           </a>
           <a href="#" class="card">
@@ -269,7 +269,7 @@
             <picture class="card-image">
               <source type="image/webp" srcset="img/disinfectants.webp">
               <source type="image/jpeg" srcset="img/disinfectants.png">
-              <img src="img/disinfectants.png" alt="Дезинфицирующие средства">
+              <img src="img/disinfectants.png" alt="Дезинфицирующие средства"width="100%">
             </picture>
           </a>
           <a href="#" class="card">
@@ -281,7 +281,7 @@
             <picture class="card-image">
               <source type="image/webp" srcset="img/disinfectants.webp">
               <source type="image/jpeg" srcset="img/disinfectants.png">
-              <img src="img/disinfectants.png" alt="Пищевые аэрозоли">
+              <img src="img/disinfectants.png" alt="Пищевые аэрозоли" width="100%">
             </picture>
           </a>
           <a href="#" class="card">
@@ -293,7 +293,7 @@
             <picture class="card-image">
               <source type="image/webp" srcset="img/auto-him.webp">
               <source type="image/jpeg" srcset="img/auto-him.png">
-              <img src="img/auto-him.png" alt="Косметическая продукция">
+              <img src="img/auto-him.png" alt="Косметическая продукция" width="100%">
             </picture>
           </a>
           <a href="#" class="card">
@@ -305,7 +305,7 @@
             <picture class="card-image">
               <source type="image/webp" srcset="img/household.webp">
               <source type="image/jpeg" srcset="img/household.png">
-              <img src="img/household.png" alt="Краски аэрозольные">
+              <img src="img/household.png" alt="Краски аэрозольные" width="100%">
             </picture>
           </a>
         </div>
@@ -314,170 +314,9 @@
     <?php $block_title = "Собственные торговые марки";
     include_once('./template-parts/trademarks-block.php')?>
     <!-- /.section trademark -->
-    <section class="section founder">
-      <picture  class="founder-photo">
-        <source type="image/webp" srcset="img/founder.webp">
-        <source type="image/jpeg" srcset="img/founder.jpg">
-        <img src="img/founder.jpg" alt="fouder">
-      </picture>
-      <div class="container">
-        <div class="founder-content-wrapper">
-          <div class="founder-content">
-            <div class="seporator"></div>
-            <h2 class="section-title">Отношение к делу <br> и к клиентам</h2>
-            <p class="founder-text">
-              Кстати, интерактивные прототипы описаны максимально подробно. Повседневная практика показывает, что укрепление и развитие внутренней структуры говорит о возможностях соответствующих условий активизации. Внезапно, независимые государства, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут подвергнуты целой серии независимых исследований. С учётом сложившейся международной обстановки, синтетическое тестирование выявляет срочную потребность системы массового участия.
-            </p>
-            <p class="founder-text">
-              А ещё действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены сами себе. Не следует, однако, забывать, что выбранный нами инновационный путь в значительной степени обусловливает важность дальнейших направлений развития.
-            </p>
-            <a href="#" class="button-link">Подробнее о компании</a>
-          </div>
-        </div>
-        <!-- /.founder-content-wrapper -->
-      </div>
-    </section>
+    <?php include_once('./template-parts/founder.php')?>
     <!-- /.section founder -->
-    <section class="section clients">
-      <div class="container">
-        <div class="seporator"></div>
-        <div class="clients-wrapper">
-          <div class="clients-content">
-            <h2 class="section-title">Производим аэрозольную продукцию для разных сфер</h2>
-            <ul class="clients-list">
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#him"></use>
-                </svg>
-                Химические производства
-              </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#car"></use>
-                </svg>
-                Автомойки
-              </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#eat"></use>
-                </svg>
-                Пищевая продукция
-              </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#brush"></use>
-                </svg>
-                Лаки и краски
-              </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#cosmetic"></use>
-                </svg>
-                Косметические средства
-              </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#car-cosm"></use>
-                </svg>
-                Автомобильная косметика
-              </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#shirt"></use>
-                </svg>
-                Косметика по уходу за одеждой
-              </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#boots"></use>
-                </svg>
-                Косметика по уходу за обувью
-              </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#bricks"></use>
-                </svg>
-                Строительные материалы
-              </li>
-              <li class="clients-list-item">
-                <svg width="30" height="30" class="clients-list-icon">
-                  <use href="img/sprite.svg#more"></use>
-                </svg>
-                И многих других
-              </li>
-            </ul>
-          </div>
-          <!-- /.clients-content -->
-            <div class="clients-logo-list">
-              <a href="#" class="clients-logo-item">
-                <picture class="clients-logo">
-                  <source type="image/webp" srcset="img/client1.webp">
-                  <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt="logo">
-                </picture>
-              </a>
-              <a href="#" class="clients-logo-item">
-                <picture class="clients-logo">
-                  <source type="image/webp" srcset="img/client1.webp">
-                  <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt="logo">
-                </picture>
-              </a>
-              <a href="#" class="clients-logo-item">
-                <picture class="clients-logo">
-                  <source type="image/webp" srcset="img/client1.webp">
-                  <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt="logo">
-                </picture>
-              </a>
-              <a href="#" class="clients-logo-item">
-                <picture class="clients-logo">
-                  <source type="image/webp" srcset="img/client1.webp">
-                  <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt="logo">
-                </picture>
-              </a>
-              <a href="#" class="clients-logo-item">
-                <picture class="clients-logo">
-                  <source type="image/webp" srcset="img/client1.webp">
-                  <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt="logo">
-                </picture>
-              </a>
-              <a href="#" class="clients-logo-item">
-                <picture class="clients-logo">
-                  <source type="image/webp" srcset="img/client1.webp">
-                  <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt="logo">
-                </picture>
-              </a>
-              <a href="#" class="clients-logo-item">
-                <picture class="clients-logo">
-                  <source type="image/webp" srcset="img/client1.webp">
-                  <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt="logo">
-                </picture>
-              </a>
-              <a href="#" class="clients-logo-item">
-                <picture class="clients-logo">
-                  <source type="image/webp" srcset="img/client1.webp">
-                  <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt="logo">
-                </picture>
-              </a>
-              <a href="#" class="clients-logo-item">
-                <picture class="clients-logo">
-                  <source type="image/webp" srcset="img/client1.webp">
-                  <source type="image/jpeg" srcset="img/client1.png">
-                  <img src="img/client1.png" alt="logo">
-                </picture>
-              </a>
-            </div>
-          <!-- /.clients-logo -->
-        </div>
-        <!-- /.clients-wrapper -->
-      </div>
-    </section>
+    <?php include_once('./template-parts/clients.php')?>
     <!-- /.section clients -->
     <section class="section blog">
       <div class="container">
@@ -490,8 +329,8 @@
             <a href="#" class="swiper-slide blog-card">
               <picture class="blog-card-image">
                 <source type="image/webp" srcset="img/blog/blog-photo.webp">
-                <source type="image/jpg" srcset="img/blog/blog-photo.jpg">
-                <img src="img/blog/blog-photo.jpg" alt="Современная методология разработки" width="705" height="400">
+                <source type="image/jpeg" srcset="img/blog/blog-photo.jpeg">
+                <img src="img/blog/blog-photo.jpeg" alt="Современная методология разработки" width="100%" height="100%" >
               </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
@@ -500,7 +339,7 @@
               <picture class="blog-card-image">
                 <source type="image/webp" srcset="img/blog/blog-post.webp">
                 <source type="image/jpeg" srcset="img/blog/blog-post.jpg">
-                <img src="img/blog/blog-post.jpg" alt="Современная методология разработки" width="705" height="400">
+                <img src="img/blog/blog-post.jpg" alt="Современная методология разработки" width="100%" height="100%">
               </picture>
               <h3 class="blog-card-title">Сложно сказать, почему жизнь прекрасна</h3>
               <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
@@ -508,8 +347,8 @@
             <a href="#" class="swiper-slide blog-card">
               <picture class="blog-card-image">
                 <source type="image/webp" srcset="img/blog/blog-photo.webp">
-                <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
-                <img src="img/blog/blog-photo.jpg" alt="Современная методология разработки" width="705" height="400">
+                <source type="image/jpeg" srcset="img/blog/blog-photo.jpeg">
+                <img src="img/blog/blog-photo.jpeg" alt="Современная методология разработки" width="100%" height="100%">
               </picture>
               <h3 class="blog-card-title">Современная методология разработки одухотворила всех причастных</h3>
               <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
@@ -517,7 +356,7 @@
           </div>
 
           <div class="blog-slider-footer">
-            <a href="" class="button-link">Весь блог</a>
+            <a href="/blog.php" class="button-link">Весь блог</a>
             <div class="blog-buttons primary-buttons-wrapper">
               <div class="blog-button-prev primary-button-prev">
                 <svg width="36" height="24">
@@ -538,4 +377,4 @@
     </section>
     <!-- /.section blog -->
 
-    <?php include_once('footer.php'); ?>
+    <?php include_once('cta.php'); ?>

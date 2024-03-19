@@ -1,3 +1,40 @@
+<section class="cta">
+      <div class="bg-grey section-cta">
+        <picture class="cta-image">
+          <source type="image/webp" srcset="img/cta.webp">
+          <source type="image/jpeg" srcset="img/cta.png">
+          <img src="img/cta.png" alt="call to action" width="100%">
+        </picture>
+        <div class="cta-form-wrapper container">
+          <form action="handler.php" method="POST" class="cta-form">
+            <h2 class="section-title cta-form-title">Хотите сотрудничать?</h2>
+            <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
+            <div class="input-group-wrapper">
+              <div class="input-group">
+                <input id="user-name" type="text" class="input" name="username" placeholder=" " require maxlength="100">
+                <label class="input-group-label" for="user-name">Имя</label>
+              </div>
+              <!-- /.input-group -->
+              <div class="input-group">
+                <input id="user-phone" type="tel" class="input phone-mask" name="userphone" placeholder=" ">
+                <label class="input-group-label" for="user-phone">Номер телефона</label>
+              </div>
+              <!-- /.input-group -->
+            </div>
+            <div class="cta-form-footer">
+              <button type="submit" class="button cta-form-button">Отправить заявку</button>
+              <div class="notify">
+                <svg class="notify-icon" width="14" height="14">
+                  <use href="img/sprite.svg#shield"></use>
+                </svg>
+                <p class="notify-text">Обращаясь к нам вы получаете не только профессиональную работу, но и абсолютную конфиденциальность информации!</p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- /.section cta -->
     <footer class="footer">
       <div class="container">
         <div class="footer-top">
@@ -151,7 +188,7 @@
         <picture width="360" height="310">
           <source type="image/webp" srcset="img/alert.webp">
           <source type="image/jpeg" srcset="img/alert.png">
-          <img src="img/alert.png" alt="Спасибо за заявку" width="100%">
+          <img src="img/alert.png" alt="Спасибо за заявку">
         </picture>
         <h2 class="modal-title">Спасибо за заявку!</h2>
         <a href="#" class="modal-close" data-toggle="modal" data-target="#alert-modal">

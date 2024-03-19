@@ -536,6 +536,7 @@ body {
   display: none;
 }
 
+
 .trademark-card:hover {
   border-color: #5C8EE5;
 }
@@ -616,8 +617,6 @@ body {
   flex-wrap: wrap;
   flex-shrink: 10;
   padding-top: 1.375rem;
-
-
 }
 
 .clients-logo-item {
@@ -630,15 +629,12 @@ body {
   filter: grayscale(100%);
   transition: filter 0.2s;
 }
-
 .clients-logo-item:hover {
   filter: grayscale(0%);
 }
-
 .clients-logo {
   max-width: 100%;
 }
-
 
 /* Контейнер основной (Блог)*/
 .blog {
@@ -654,12 +650,13 @@ body {
   color: #fff;
   justify-content: flex-end;
   padding: 3.125rem;
+  width: 705px;
 }
 
 .blog-card::before {
   content: '';
   position: absolute;
-  width: 101.3%;
+  width: 100%;
   height: 100%;
   left: 0;
   top: 0;
@@ -671,8 +668,8 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-  width: 705px;
-  height: 400px;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
   z-index: -2;
 }
@@ -1133,16 +1130,99 @@ ol.breadcrumb {
   content: "—";
   margin-left: 10px;
 }
-
 .page-header-bg-image .breadcrumbs-item,
 .page-header-bg-image .breadcrumb-item.active .breadcrumbs-link {
   color: #fff;
+}
+
+.text-privacy {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 160%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Эксперты */
+.experts-content {
+  max-width: 52rem;
+}
+
+.experts-content-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  justify-content: center;
+  margin-left: 30px;
+}
+
+.experts-text {
+  color: #828A99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%; 
+}
+
+.experts-features-text {
+  color: rgb(41, 45, 51);
+}
+
+/* Производство */
+
+.production {
+  margin-top: 8rem;
+}
+
+.production-wrapper {
+  display: flex;
+  gap: 3.125rem;
+  height: 38.875rem;
+}
+
+.production-content {
+  flex-basis: 50%;
+}
+.production-text {
+  color: #828A99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%; 
+}
+
+.production-list {
+  list-style-type: none;
+  padding: 0;
+  columns: 2 auto;
+}
+
+.production-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  color: #292D33;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  padding-bottom: 1.25rem;
+}
+
+.production-logo {
+  max-width: 100%;
 }
 
 
 
 
 
+
+.block-blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 30px;
+  justify-content: center;
+}
+.naviSwiper a {
+  color: #333;
+}
 
 
 
@@ -1227,14 +1307,18 @@ ol.breadcrumb {
     grid-template-columns: auto auto;
   }
   .founder-content {
-    max-width: 35rem;
+    max-width: 40rem;
   }
   .clients-content {
     flex-basis: 113%;
   }
-
   .cta-image {
     left: -9.25rem;
+  }
+  .clients-wrapper {
+    display: flex;
+    flex-direction: column;
+    
   }
 }
 
@@ -1568,42 +1652,38 @@ ol.breadcrumb {
   .clients-logo-item {
     flex-basis: 50%;
   }
-
   .founder-text {
     font-size: 1.5rem;
   }
-
   .input-group-wrapper {
     display: flex;
     flex-direction: column;
   }
-
   .cta-form-text {
     font-size: 1.5rem;
   }
-
   .cta-form-footer {
     display: flex;
     flex-direction: column;
     align-items: stretch;
   }
-
   .notify-text {
     max-width: 100%;
   }
-
   .button-link {
     font-size: 1.5rem;
   }
-}
+  #item-end {
+    display: none;
+  }
 
+}
 
 @media (max-width: 430px) {
   .footer-logo {
     width: 17.5rem;
     height: 10.75em;
   }
-
   .footer-info {
     display: flex;
     align-items: center;
@@ -1611,7 +1691,6 @@ ol.breadcrumb {
     padding-bottom: .75rem;
     gap: .625rem;
   }
-
   .footer-phone {
     font-size: 3rem;
     padding-bottom: 1.3125rem;
@@ -1621,11 +1700,9 @@ ol.breadcrumb {
     padding-bottom: .75rem;
     font-size: 1.5rem;
   }
-
   .logo-svg {
     max-width: 17.5rem;
   }
-
   .footer-top {
     align-items: start;
   }
@@ -1646,24 +1723,19 @@ ol.breadcrumb {
   .footer-menu-link {
     font-size: 1.5rem;
   }
-
   .footer-menu-title {
     font-size: 1.5rem;
     font-weight: 700;
   }
-
   .footer-copyright {
     font-size: 1.3rem;
     margin-top: 0;
     margin-bottom: .625rem;
   }
-
   .footer-policy {
     font-size: 1.3rem;
     margin-bottom: .625rem;
-
   }
-
   .made-in {
     font-size: 1.3rem;
     padding-right: .625rem;

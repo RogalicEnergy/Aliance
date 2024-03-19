@@ -275,3 +275,33 @@ document.addEventListener("input", (e) => {
     input.value = result;
   }
 });
+
+
+var swiperBlock = new Swiper(".naviSwiper", {
+  loop: true,
+  spaceBetween: 10,
+  slidesPerView: 5,
+  freeMode: true,
+  watchSliderProgress: true,
+})
+var swiperBlock = new Swiper(".naviSwiperTwo", {
+  loop: true,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: '.blog-button-next',
+    prevEl: '.blog-button-prev',
+  },
+  thumbs: {
+    swiper: swiper,
+  },
+})
+
+(function() {
+  // INITIALIZATION OF SWIPER
+  // =======================================================
+  var navigation = new Swiper('.js-swiper-pagination', {
+    pagination: {
+      el: '.js-swiper-pagination',
+    },
+  });
+})()
