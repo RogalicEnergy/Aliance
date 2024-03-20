@@ -110,7 +110,41 @@ const swiperBlog = new Swiper('.blog-slider', {
       slidesPerView: 2,
     },
   }
+});
 
+const swiperBlockCentre = new Swiper('.block-centre', {
+  speed: 200,
+  slidesPerView: 1,
+  breakpoints: {
+    740: {
+      slidesPerView: 2,
+    },
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+    renderBullet: function (index, className) {
+      return '<span class="' + className + '">' + (index+ 1) + '</span>';
+    }
+  },
+});
+
+const swiperCentre = new Swiper('.centre-slider', {
+  speed: 400,
+  slidesPerView: 1,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: '.centre-button-next',
+    prevEl: '.centre-button-prev',
+  },
+  breakpoints: {
+    740: {
+      slidesPerView: 4,
+      centeredSlides: true,
+      slidesOffsetBefore: -60,
+      slidesOffsetAfter: -150,
+    },
+  }
 });
 
 
