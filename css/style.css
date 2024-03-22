@@ -74,7 +74,7 @@ body {
 }
 
 
-.mark-icon, .phone-icon {
+.mark-icon, .phone-icon, .contracts-icon {
   fill: #5C8EE6;
 }
 
@@ -1167,33 +1167,33 @@ ol.breadcrumb {
 
 /* Производство */
 
-.production {
+.production, .production-autohim {
   margin-top: 8rem;
 }
 
-.production-wrapper {
+.production-wrapper, .production-autohim-wrapper {
   display: flex;
-  gap: 3.125rem;
+  gap: 9.125rem;
   height: 38.875rem;
 }
 
-.production-content {
+.production-content, .production-autohim-content, .block-autohim-content{
   flex-basis: 50%;
 }
-.production-text {
+.production-text, .production-autohim-text, .block-autohim-text{
   color: #828A99;
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%; 
 }
 
-.production-list {
+.production-list, .production-autohim-list {
   list-style-type: none;
   padding: 0;
   columns: 2 auto;
 }
 
-.production-list-item {
+.production-list-item, .production-autohim-list-item, .block-autohim-list-item{
   display: flex;
   align-items: center;
   gap: 1.25rem;
@@ -1204,8 +1204,8 @@ ol.breadcrumb {
   padding-bottom: 1.25rem;
 }
 
-.production-logo {
-  max-width: 100%;
+.production-logo, .production-autohim-logo{
+  clip-path: inset(0px 0px -55px 0px);
 }
 
 /* Исследовательский центр */
@@ -1240,9 +1240,8 @@ ol.breadcrumb {
   color: #fff;
   justify-content: flex-end;
   padding: 3.125rem;
-  width: 705px;
+  max-width: 100%;
 }
-
 
 .centre-card-image {
   position: absolute;
@@ -1275,16 +1274,17 @@ ol.breadcrumb {
   display: flex;
   align-items: center;
   margin-top: 1.875rem;
-  justify-content: space-between;
+  justify-content: flex-end;
+  margin-right: 15.9375rem;
 }
 
 
+/* Статься о блоге */
 .block-centre {
   display: flex;
   max-width: 89rem;
   padding-top: 6.25rem;
 }
-
 
 .block-card {
   display: grid;
@@ -1322,6 +1322,93 @@ ol.breadcrumb {
 }
 
 
+.contracts-title {
+  color: rgb(41, 45, 51);
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin-bottom: .625rem;
+  margin-top: 0;
+}
+
+.contracts-text {
+  color: rgb(130, 138, 153);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  margin: 0;
+}
+
+.button-link-contracts{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #5C8EE5;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 160%;
+  margin-left: .5625rem;
+  word-spacing: .125rem;
+}
+
+.button-link-contracts:before {
+  content: '';
+  height: .0625rem;
+  background: #5C8EE5;
+  width: 2.5rem;
+  margin-right: 1.25rem;
+  transition: width 0.2s;
+}
+
+/* Автомобильная химия */
+
+.him-content-photo {
+  clip-path: inset(100px 0px 0px 100px);
+}
+
+.production-him-content {
+  max-width: 45rem;
+}
+
+.production-him-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.production-him-text {
+  color: #828A99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%; 
+}
+
+.production-autohim {
+  position: relative;
+}
+
+.production-autohim-photo {
+  position: absolute;
+  right: 0;
+  top: -0.8rem;
+  height: 100%;
+  object-fit: cover;
+  min-height: 41.25rem;
+}
+
+/* Виды аытохимии */
+
+.block-autohim-text {
+  color: #828A99;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%; 
+}
+
+.block-autohim-list {
+  list-style-type: none;
+  padding: 0;
+  columns: 4 auto;
+}
 
 /* Медиа запросы */
 

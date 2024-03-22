@@ -19,7 +19,7 @@
           <a href="#" class="mobile-menu-link">Контрактное производство</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
-              <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
+              <a class="mobile-submenu-link" href="/product_avtohim.php">Автомобильная химия</a>
             </li>
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Бытовая химия</a>
@@ -106,10 +106,10 @@
           <a href="/about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контрактное производство</a>
+          <a href="/contracs.php" class="header-nav-link">Контрактное производство</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</a>
+          <a href="/trademarks.php" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
           <a href="#" class="header-nav-link">Новости</a>
@@ -147,7 +147,7 @@
         <!-- основной блок слайдера -->
         <div class="swiper features-slider">
           <!-- обертка слайдера -->
-          <ul class="swiper-wrapper header-features">
+          <ul class="swiper-wrapper header-features"> 
             <!-- слайды -->
             <li class="swiper-slide header-features-item"><svg width="36" height="36">
               <use href="img/sprite.svg#time"></use>
@@ -188,129 +188,9 @@
       </div>
       <!-- /.container -->
     </header>
-    <section class="section">
-      <div class="container">
-        <div class="seporator"></div>
-        <h2 class="section-title">схема работы</h2>
-        <!-- Slider main container -->
-        <div class="swiper steps-slider">
-          <!-- Additional required wrapper -->
-          <ol class="swiper-wrapper steps-item">
-            <!-- Slides -->
-            <li class="swiper-slide">
-              <span class="steps-num">01</span>
-              <h3 class="steps-title">Знакомство</h3>
-              <p class="steps-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-              <a href="#" class="button-link">Оставить заявку</a></li>
-            <li class="swiper-slide">
-              <span class="steps-num">02</span>
-              <h3 class="steps-title">Заключение <br>договора</h3>
-              <p class="steps-text">Лишь интерактивные прототипы призваны к ответу.</p></li>
-            <li class="swiper-slide">
-              <span class="steps-num">03</span>
-              <h3 class="steps-title">Производство</h3>
-              <p class="steps-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые <br>элементы.</p></li>
-            <li class="swiper-slide">
-              <span class="steps-num">04</span>
-              <h3 class="steps-title">Доставка</h3>
-              <p class="steps-text">В частности, экономическая повестка сегодняшнего дня говорит о возможностях приоритизации <br>разума над эмоциями.</p></li>
-          </ol>
-          <div class="steps-buttons primary-buttons-wrapper">
-            <div class="steps-button-prev primary-button-prev">
-              <svg width="36" height="24">
-                <use href="img/sprite.svg#arrow-prew"></use>
-              </svg>
-            </div>
-            <div class="steps-button-next primary-button-next">
-              <svg width="36" height="24">
-                <use  href="img/sprite.svg#arrow-next"></use>
-              </svg>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- /.container -->
-    </section>
-    <section class="section production">
-      <div class="container">
-        <div class="seporator"></div>
-        <h2 class="section-title">Контрактное производство</h2>
-        <div class="cards">
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Автомобильная химия</h3>
-              <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-            </div>
-            <!-- /.card-content -->
-            <picture class="card-image">
-              <source type="image/webp" srcset="img/auto-him.webp">
-              <source type="image/jpeg" srcset="img/auto-him.png">
-              <img src="img/auto-him.png" alt="Автомобильная химия" width="100%">
-            </picture>
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Бытовая химия</h3>
-              <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
-            </div>
-            <!-- /.card-content -->
-            <picture class="card-image">
-              <source type="image/webp" srcset="img/household.webp">
-              <source type="image/jpeg" srcset="img/household.png">
-              <img src="img/household.png" alt="Бытовая химия" width="100%">
-            </picture>
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Дезинфицирующие средства</h3>
-              <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
-            </div>
-            <!-- /.card-content -->
-            <picture class="card-image">
-              <source type="image/webp" srcset="img/disinfectants.webp">
-              <source type="image/jpeg" srcset="img/disinfectants.png">
-              <img src="img/disinfectants.png" alt="Дезинфицирующие средства"width="100%">
-            </picture>
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Пищевые аэрозоли</h3>
-              <p class="card-text">Безусловно, сплочённость команды профессионалов позволяет оценить значение форм воздействия.</p>
-            </div>
-            <!-- /.card-content -->
-            <picture class="card-image">
-              <source type="image/webp" srcset="img/disinfectants.webp">
-              <source type="image/jpeg" srcset="img/disinfectants.png">
-              <img src="img/disinfectants.png" alt="Пищевые аэрозоли" width="100%">
-            </picture>
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Косметическая продукция</h3>
-              <p class="card-text">Лишь интерактивные прототипы призваны к ответу.</p>
-            </div>
-            <!-- /.card-content -->
-            <picture class="card-image">
-              <source type="image/webp" srcset="img/auto-him.webp">
-              <source type="image/jpeg" srcset="img/auto-him.png">
-              <img src="img/auto-him.png" alt="Косметическая продукция" width="100%">
-            </picture>
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Краски аэрозольные</h3>
-              <p class="card-text">А также стремящиеся вытеснить традиционное производство, нанотехнологии функционально разнесены на независимые элементы.</p>
-            </div>
-            <!-- /.card-content -->
-            <picture class="card-image">
-              <source type="image/webp" srcset="img/household.webp">
-              <source type="image/jpeg" srcset="img/household.png">
-              <img src="img/household.png" alt="Краски аэрозольные" width="100%">
-            </picture>
-          </a>
-        </div>
-      </div>
-    </section>
+    <?php include_once('./template-parts/scheme.php')?>
+    <?php $block_title = "Контрактное производство";
+    include_once('./template-parts/production.php')?>
     <?php $block_title = "Собственные торговые марки";
     include_once('./template-parts/trademarks-block.php')?>
     <!-- /.section trademark -->

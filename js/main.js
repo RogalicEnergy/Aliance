@@ -139,10 +139,8 @@ const swiperCentre = new Swiper('.centre-slider', {
   },
   breakpoints: {
     740: {
-      slidesPerView: 4,
-      centeredSlides: true,
-      slidesOffsetBefore: -60,
-      slidesOffsetAfter: -150,
+      slidesPerView: 3,
+      slidesOffsetBefore: -250,
     },
   }
 });
