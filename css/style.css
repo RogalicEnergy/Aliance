@@ -1385,15 +1385,13 @@ ol.breadcrumb {
   margin-left: .5625rem;
   word-spacing: .125rem;
 }
-
-.button-link-contracts:before {
-  content: '';
-  height: .0625rem;
-  background: #5C8EE5;
-  width: 2.5rem;
-  margin-right: 1.25rem;
-  transition: width 0.2s;
+.contracts-block {
+  padding-top: 1.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
+
 
 /* Автомобильная химия */
 
