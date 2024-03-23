@@ -1,7 +1,7 @@
 <?php
-$page_title = 'Автомобольная химия';
-$header_style = 'page-header-bg-grey';
-include_once('header-page.php'); ?>
+$page_title = 'Автомобильная химия';
+$header_style = 'page-header-bg-him';
+include_once('header-page-contract.php'); ?>
 
 
 <section class="section production-him">
@@ -35,49 +35,49 @@ include_once('header-page.php'); ?>
         <ul class="production-autohim-list">
           <li class="production-autohim-list-item">
             <svg width="30" height="30" class="production-autohim-list-icon">
+              <use href="img/sprite.svg#him"></use>
+            </svg>
+            Полное описание товаров
+          </li>
+          <li class="production-autohim-list-item">
+            <svg width="30" height="30" class="production-autohim-list-icon">
               <use href="img/sprite.svg#car"></use>
             </svg>
-            Полное описание товаров
-          </li>
-          <li class="production-autohim-list-item">
-            <svg width="30" height="30" class="production-autohim-list-icon">
-              <use href="img/sprite.svg#home"></use>
-            </svg>
             Актуальные цены
           </li>
           <li class="production-autohim-list-item">
             <svg width="30" height="30" class="production-autohim-list-icon">
-              <use href="img/sprite.svg#diz"></use>
+              <use href="img/sprite.svg#him"></use>
             </svg>
             Полное описание товаров
           </li>
           <li class="production-autohim-list-item">
             <svg width="30" height="30" class="production-autohim-list-icon">
-              <use href="img/sprite.svg#speed"></use>
+              <use href="img/sprite.svg#car"></use>
             </svg>
             Актуальные цены
           </li>
           <li class="production-autohim-list-item">
             <svg width="30" height="30" class="production-autohim-list-icon">
-              <use href="img/sprite.svg#shield"></use>
+              <use href="img/sprite.svg#brush"></use>
             </svg>
             Лаки и краски
           </li>
           <li class="production-autohim-list-item">
             <svg width="30" height="30" class="production-autohim-list-icon">
-              <use href="img/sprite.svg#car-cosm"></use>
+              <use href="img/sprite.svg#him"></use>
             </svg>
             Химические производства
           </li>
           <li class="production-autohim-list-item">
             <svg width="30" height="30" class="production-autohim-list-icon">
-              <use href="img/sprite.svg#car-cosm"></use>
+              <use href="img/sprite.svg#brush"></use>
             </svg>
             Лаки и краски
           </li>
           <li class="production-autohim-list-item">
             <svg width="30" height="30" class="production-autohim-list-icon">
-              <use href="img/sprite.svg#car-cosm"></use>
+              <use href="img/sprite.svg#him "></use>
             </svg>
             Химические производства
           </li>
@@ -97,127 +97,67 @@ include_once('header-page.php'); ?>
   <div class="container">
   <div class="seporator"></div>
     <div class="block-autohim-content">
-      <h2 class="section-title">Изготовление автохимии</h2>
-      <p class="block-autohim-text">Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям. В своём стремлении повысить качество жизни, они забывают, что дальнейшее развитие различных форм деятельности, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для поставленных обществом задач.</p>
+      <h2 class="section-title">Виды автохимии</h2>
+      <p class="block-autohim-text">Но современная методология разработки позволяет оценить значение прогресса профессионального сообщества. Есть над чем задуматься: тщательные исследования конкурентов набирают популярность среди определенных слоев населения, а значит, должны быть ассоциативно распределены по отраслям.</p>
       <ul class="block-autohim-list">
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#icon"></use>
-          </svg>
           Антискотч
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#home"></use>
-          </svg>
           Многоцелевая смазка
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#diz"></use>
-          </svg>
           Жидкий ключ
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#speed"></use>
-          </svg>
           Высокотемпературная смазка
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#shield"></use>
-          </svg>
           Универсальный очиститель деталей
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#car"></use>
-          </svg>
           Силиконовая смазка
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#home"></use>
-          </svg>
           Цепная смазка
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#diz"></use>
-          </svg>
           Медная смазка
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#speed"></use>
-          </svg>
           Графитовая смазка
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#shield"></use>
-          </svg>
           Очиститель кондиционера пенный
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#car"></use>
-          </svg>
           Очиститель тормозных дисков
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#home"></use>
-          </svg>
           Очиститель битумных пятен
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#diz"></use>
-          </svg>
           Очиститель кондционера
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#speed"></use>
-          </svg>
           Очиститель дросельной заслонки
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#shield"></use>
-          </svg>
           Очиститель обивки
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#car"></use>
-          </svg>
           Тефлоновая смазка
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#home"></use>
-          </svg>
           Очиститель двигателя
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#diz"></use>
-          </svg>
           Универсальный очиститель
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#speed"></use>
-          </svg>
           Чернитель шин 
         </li>
         <li class="block-autohim-list-item">
-          <svg width="30" height="30" class="block-autohim-list-icon">
-            <use href="img/sprite.svg#shield"></use>
-          </svg>
           Чернитель шин + очистка
         </li>
       </ul>

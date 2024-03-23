@@ -146,6 +146,9 @@
             <li class="breadcrumb-item">
               <a href="/index.php" class="breadcrumbs-link">Главная</a>
             </li>
+            <li class="breadcrumb-item">
+              <a href="/contracts.php" class="breadcrumbs-link">Контрактное производство</a>
+            </li>
             <li class="breadcrumb-item active" aria-current="page">
               <a href="#" class="breadcrumbs-link"><?= $page_title ?></a>
             </li>

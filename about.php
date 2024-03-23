@@ -32,7 +32,7 @@ include_once('header-page.php'); ?>
         <ul class="production-list">
           <li class="production-list-item">
             <svg width="30" height="30" class="production-list-icon">
-              <use href="img/sprite.svg#car"></use>
+              <use href="/img/sprite.svg#car"></use>
             </svg>
             Автомобильная химия
           </li>
@@ -44,25 +44,25 @@ include_once('header-page.php'); ?>
           </li>
           <li class="production-list-item">
             <svg width="30" height="30" class="production-list-icon">
-              <use href="img/sprite.svg#diz"></use>
+              <use href="img/sprite.svg#diz-home"></use>
             </svg>
             Дезинфицирующие средства
           </li>
           <li class="production-list-item">
             <svg width="30" height="30" class="production-list-icon">
-              <use href="img/sprite.svg#speed"></use>
+              <use href="img/sprite.svg#aerozol"></use>
             </svg>
             Пищевые аэрозоли
           </li>
           <li class="production-list-item">
             <svg width="30" height="30" class="production-list-icon">
-              <use href="img/sprite.svg#shield"></use>
+              <use href="img/sprite.svg#cosmetic"></use>
             </svg>
             Косметические средства
           </li>
           <li class="production-list-item">
             <svg width="30" height="30" class="production-list-icon">
-              <use href="img/sprite.svg#car-cosm"></use>
+              <use href="img/sprite.svg#brush"></use>
             </svg>
             Краски аэрозольные
           </li>
