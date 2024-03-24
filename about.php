@@ -9,7 +9,7 @@ include_once('header-page.php'); ?>
       <picture  class="experts-photo">
         <source type="image/webp" srcset="img/company/company-logo.webp">
         <source type="image/png" srcset="img/company/company-logo.png">
-        <img src="img/company/company-logo.png" alt="experts" width="90%">
+        <img src="img/company/company-logo.png" alt="experts" width="100%">
       </picture>
       <div class="experts-content">
         <div class="seporator"></div>
@@ -21,47 +21,47 @@ include_once('header-page.php'); ?>
   </div>
   <?php include_once('./template-parts/features-slider.php')?>
 </section>
-<section class="section production">
-  <div class="container">
-    <div class="seporator"></div>
-    <div class="production-wrapper">
-      <div class="production-content">
+<section class="section production-container">
+  <div class="container production-container">
+    <div class="production-container-wrapper">
+      <div class="production-container-content">
+        <div class="seporator"></div>
         <h2 class="section-title">Наше производство</h2>
-        <p class="production-text">Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.</p>
-        <p class="production-text">Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня требует анализа анализа существующих паттернов поведения.</p>
-        <ul class="production-list">
-          <li class="production-list-item">
-            <svg width="30" height="30" class="production-list-icon">
+        <p class="production-container-text">Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.</p>
+        <p class="production-container-text">Реализация намеченных плановых заданий, а также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для соответствующих условий активизации. Предварительные выводы неутешительны: экономическая повестка сегодняшнего дня требует анализа анализа существующих паттернов поведения.</p>
+        <ul class="production-container-list">
+          <li class="production-container-list-item">
+            <svg width="30" height="30" class="production-container-list-icon">
               <use href="/img/sprite.svg#car"></use>
             </svg>
             Автомобильная химия
           </li>
-          <li class="production-list-item">
-            <svg width="30" height="30" class="production-list-icon">
+          <li class="production-container-list-item">
+            <svg width="30" height="30" class="production-container-list-icon">
               <use href="img/sprite.svg#home"></use>
             </svg>
             Бытовая химия
           </li>
-          <li class="production-list-item">
-            <svg width="30" height="30" class="production-list-icon">
+          <li class="production-container-list-item">
+            <svg width="30" height="30" class="production-container-list-icon">
               <use href="img/sprite.svg#diz-home"></use>
             </svg>
             Дезинфицирующие средства
           </li>
-          <li class="production-list-item">
-            <svg width="30" height="30" class="production-list-icon">
+          <li class="production-container-list-item">
+            <svg width="30" height="30" class="production-container-list-icon">
               <use href="img/sprite.svg#aerozol"></use>
             </svg>
             Пищевые аэрозоли
           </li>
-          <li class="production-list-item">
-            <svg width="30" height="30" class="production-list-icon">
+          <li class="production-container-list-item">
+            <svg width="30" height="30" class="production-container-list-icon">
               <use href="img/sprite.svg#cosmetic"></use>
             </svg>
-            Косметические средства
+            Косметическая продукция
           </li>
-          <li class="production-list-item">
-            <svg width="30" height="30" class="production-list-icon">
+          <li class="production-container-list-item">
+            <svg width="30" height="30" class="production-container-list-icon">
               <use href="img/sprite.svg#brush"></use>
             </svg>
             Краски аэрозольные
@@ -69,11 +69,11 @@ include_once('header-page.php'); ?>
         </ul>
       </div>
       <!-- /.production-content -->
-      <div class="production-logo">
-        <picture  class="production-photo">
+      <div class="production-container-logo">
+        <picture  class="production-container-photo">
           <source type="image/webp" srcset="img/company/production-logo.webp">
           <source type="image/png" srcset="img/company/production-logo.png">
-          <img src="img/company/production-logo.png" alt="production" width="100%"  height="130%" >
+          <img src="img/company/production-logo.png" alt="production" width="100%"  height="150%" >
         </picture>
       </div>
     </div>

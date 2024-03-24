@@ -13,10 +13,10 @@
     <div class="mobile-menu">
       <ul class="mobile-menu-nav">
         <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">О компании</a>
+          <a class="mobile-menu-link" href="/about.php" >О компании</a>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Контрактное производство</a>
+          <a class="mobile-menu-link" href="/contracts.php" >Контрактное производство</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="/product_avtohim.php">Автомобильная химия</a>
@@ -39,7 +39,7 @@
           </ul>
         </li>
         <li class="mobile-menu-nav-item">
-          <a href="#" class="mobile-menu-link">Собственные торговые марки</a>
+          <a href="/trademarks.php" class="mobile-menu-link">Собственные торговые марки</a>
           <ul class="mobile-submenu">
             <li class="mobile-submenu-item">
               <a class="mobile-submenu-link" href="#">Автохимия AG-Tech</a>

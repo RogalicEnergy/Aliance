@@ -142,13 +142,13 @@ body {
 }
 
 .header-nav-item:not(:last-child) {
-  margin-right: 6%;
+  margin-right: 3.5%;
 }
 
 .header-nav-link {
   text-decoration: none;
   font-size: 1.0625rem;
-  font-weight: 300;
+  font-weight: 400;
   color: inherit;
   line-height: 160%;
   word-spacing: .025rem;
@@ -187,6 +187,7 @@ body {
   text-decoration: none;
   font-size: 1rem;
   color: inherit;
+  font-weight: 600;
 }
 
 .button {
@@ -256,7 +257,7 @@ body {
   display: flex;
   min-height: 10.5rem;
   padding: 0;
-  margin-top: 6.25rem;
+  margin-top: 5.5rem;
   list-style: none;
   color: #fff;
   position: relative;
@@ -477,7 +478,7 @@ body {
 /* Контейнер основной (Собственные торговые марки) */
 
 .trademark {
-  margin-top: 9.125rem;
+  margin-top: 6.125rem;
 }
 
 .trademark-cards {
@@ -557,7 +558,7 @@ body {
 .founder-photo {
   position: absolute;
   left: 0;
-  width: 40%;
+  width: 44%;
   top: -0.8rem;
   height: 100%;
   object-fit: cover;
@@ -583,7 +584,7 @@ body {
 /* Контейнер основной (Клиенты)*/
 
 .clients {
-  margin-top: 8rem;
+  margin-top: 10rem;
 }
 
 .clients-wrapper {
@@ -844,8 +845,9 @@ body {
 
 /* Footer */
 
+
 .footer-top {
-  padding-top: 3.125rem;
+  padding-top: 4.5rem;
   padding-bottom: 3.125rem;
   display: flex;
   align-items: center;
@@ -879,6 +881,7 @@ body {
   font-weight: 600;
   line-height: 160%; 
   text-decoration-line: underline;
+  margin-left: 6.625rem;
 }
 
 .footer-social-link {
@@ -952,7 +955,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 4.375rem;
+  gap: 3.375rem;
 }
 
 .footer-copyright,
@@ -1154,32 +1157,47 @@ ol.breadcrumb {
 
 .breadcrumb-item:not(:last-child)::after {
   content: "—";
-  margin-left: 10px;
+  margin-left: .625rem;
 }
 .page-header-bg-image .breadcrumbs-item,
 .page-header-bg-image .breadcrumb-item.active .breadcrumbs-link {
   color: #fff;
 }
 
+.politics {
+  max-width: 92rem;
+  margin-left: 14.875rem;
+}
+
 .text-privacy {
-  font-size: 16px;
+  font-size: 1.0625rem;
   font-weight: 300;
-  line-height: 160%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  line-height: 145%;
+  margin-bottom: 1.625rem;
+}
+
+.politics-block {
+  margin-top: 6.25rem;
+  margin-bottom: 8.4375rem;
 }
 
 /* Эксперты */
+.experts {
+  margin-top: 6.6rem;
+}
+
 .experts-content {
-  max-width: 56rem;
-  padding-left: 3.125rem;
+  max-width: 60rem;
+  padding-left: 8rem;
+}
+
+.experts-photo {
+
 }
 
 .experts-content-wrapper {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  justify-content: center;
-  margin-left: 30px;
 }
 
 .experts-text {
@@ -1187,6 +1205,7 @@ ol.breadcrumb {
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%; 
+  margin-top: 32px;
 }
 
 .experts-features-text {
@@ -1195,33 +1214,43 @@ ol.breadcrumb {
 
 /* Производство */
 
-.production, .production-autohim {
-  margin-top: 8rem;
+.production-container {
+  max-width: 91rem;
+  margin: auto;
 }
 
-.production-wrapper, .production-autohim-wrapper {
+.production-container, .production-autohim {
+  margin-top: 11.5rem;
+  margin-bottom: 13.625rem;
+}
+
+.production-container-wrapper, .production-autohim-wrapper {
   display: flex;
-  gap: 9.125rem;
-  height: 38.875rem;
+  gap: 6.125rem;
+  height: 40.875rem;
 }
 
-.production-content, .production-autohim-content, .block-autohim-content{
+.production-container-content, .production-autohim-content, .block-autohim-content{
   flex-basis: 50%;
+  margin-left: 19px;
+  margin-top: -1.9375rem;
 }
-.production-text, .production-autohim-text, .block-autohim-text{
+.production-container-text, .production-autohim-text, .block-autohim-text{
   color: #828A99;
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%; 
+  margin-top: 1.6875rem;
 }
 
-.production-list, .production-autohim-list {
+.production-container-list, .production-autohim-list {
   list-style-type: none;
   padding: 0;
   columns: 2 auto;
+  margin-top: 1.625rem;
 }
 
-.production-list-item, .production-autohim-list-item, .block-autohim-list-item{
+.production-container-list-item, .production-autohim-list-item, .block-autohim-list-item{
   display: flex;
   align-items: center;
   gap: 1.25rem;
@@ -1239,8 +1268,8 @@ ol.breadcrumb {
 }
 
 
-.production-logo, .production-autohim-logo{
-  clip-path: inset(0px 0px -55px 0px);
+.production-container-logo, .production-autohim-logo{
+  clip-path: inset(0px 0px -53px 34px);
 }
 
 /* Исследовательский центр */
@@ -1263,7 +1292,7 @@ ol.breadcrumb {
 }
 
 .centre {
-  margin-top: 9.875rem;
+  margin-top: 13.875rem;
 }
 
 .centre-card {
@@ -1285,7 +1314,6 @@ ol.breadcrumb {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  z-index: -2;
 }
 
 .centre-card-title {
@@ -1308,9 +1336,9 @@ ol.breadcrumb {
 .centre-slider-footer {
   display: flex;
   align-items: center;
-  margin-top: 1.875rem;
+  margin-top: 2.875rem;
   justify-content: flex-end;
-  margin-right: 15.9375rem;
+  margin-right: 13.9375rem;
 }
 
 
@@ -1330,9 +1358,9 @@ ol.breadcrumb {
   margin-right: 30px
 }
 .swiper-pagination {
-  bottom: 0;
   display: flex;
   justify-content: end;
+  margin-top: .625rem
 }
 
 .block-swiper {
@@ -1350,12 +1378,17 @@ ol.breadcrumb {
   justify-content: center;
   align-items: center;
   background: none;
+  font-weight: 600;
   opacity: 1;
   width: 50px;
   height: 50px; 
   border-radius: var(--swiper-pagination-bullet-border-radius, 0%);
 }
 
+
+.contracts {
+  margin-top: 7rem;
+}
 
 .contracts-title {
   color: rgb(41, 45, 51);
