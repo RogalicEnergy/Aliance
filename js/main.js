@@ -82,7 +82,6 @@ const swiper = new Swiper('.features-slider', {
     560: {
       slidesPerView: 1,
       centeredSlides: true,
-      slidesOffsetBefore: -60,
       slidesOffsetAfter: -100,
     },
     750: {
@@ -119,6 +118,7 @@ const swiperBlockCentre = new Swiper('.block-centre', {
     740: {
       slidesPerView: 2,
     },
+
   },
   pagination: {
     el: '.swiper-pagination',
@@ -140,6 +140,10 @@ const swiperCentre = new Swiper('.centre-slider', {
   breakpoints: {
     740: {
       slidesPerView: 3,
+      slidesOffsetBefore: -250,
+    },
+    640: {
+      slidesPerView: 2,
       slidesOffsetBefore: -250,
     },
   }

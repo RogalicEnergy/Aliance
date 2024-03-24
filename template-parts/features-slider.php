@@ -26,13 +26,13 @@
     <!-- кнопки навигации вперед/назад -->
     <div class="slider-buttons">
       <div class="slider-button-prev">
-        <svg width="36" height="24">
-          <use href="img/sprite.svg#arrow-prew"></use>
+        <svg width="36" height="24" class="slider-experts-button">
+          <use href="img/sprite.svg#arrow-prew-black"></use>
         </svg>
       </div>
       <div class="slider-button-next">
-        <svg width="36" height="24">
-          <use href="img/sprite.svg#arrow-next"></use>
+        <svg width="36" height="24" class="slider-experts-button">
+          <use href="img/sprite.svg#arrow-next-black"></use>
         </svg>
       </div>
     </div>

@@ -101,7 +101,7 @@ include_once('header-page.php'); ?>
         <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
       </a>
     </div>
-    <div class="swiper-slide block-card">
+    <div class="swiper-slide block-card" id="block-none">
       <a href="#" class="blog-card">
         <picture class="blog-card-image">
           <source type="image/webp" srcset="img/blog/blog-photo.webp">
@@ -148,7 +148,7 @@ include_once('header-page.php'); ?>
         <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
     </div>
-    <div class="swiper-slide block-card">
+    <div class="swiper-slide block-card" id="block-none">
       <a href="#" class="blog-card">
         <picture class="blog-card-image">
           <source type="image/webp" srcset="img/blog/blog-post.webp">
@@ -195,7 +195,7 @@ include_once('header-page.php'); ?>
         <p class="blog-card-text">Сложно сказать, почему элементы политического процесса функционально разнесены на независимые элементы. Безусловно, высокотехнологичная...</p>
       </a>
     </div>
-    <div class="swiper-slide block-card">
+    <div class="swiper-slide block-card" id="block-none">
       <a href="#" class="blog-card">
         <picture class="blog-card-image">
           <source type="image/webp" srcset="img/blog/blog-photo.webp">
@@ -242,7 +242,7 @@ include_once('header-page.php'); ?>
         <p class="blog-card-text">Действия представителей оппозиции, превозмогая сложившуюся непростую экономическую ситуацию, в равной степени предоставлены...</p>
       </a>
     </div>
-    <div class="swiper-slide block-card">
+    <div class="swiper-slide block-card" id="block-none">
       <a href="#" class="blog-card">
         <picture class="blog-card-image">
           <source type="image/webp" srcset="img/blog/blog-post.webp">
