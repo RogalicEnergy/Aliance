@@ -142,7 +142,7 @@ const swiperCentre = new Swiper('.centre-slider', {
       slidesPerView: 3,
       slidesOffsetBefore: -250,
     },
-    640: {
+    540: {
       slidesPerView: 2,
       slidesOffsetBefore: -250,
     },
