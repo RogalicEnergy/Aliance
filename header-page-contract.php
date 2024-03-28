@@ -137,22 +137,24 @@
     <!-- /.navbar -->
     <header class="page-header <?= $header_style ?>">
       <div class="container">
-        <div class="page-block">
-          <div class="seporator"></div>
-          <h1 class="page-header-title"><?= $page_title ?></h2>
+        <div class="page-container">
+          <div class="page-block">
+            <div class="seporator"></div>
+            <h1 class="page-header-title"><?= $page_title ?></h2>
+          </div>
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item">
+                <a href="/index.php" class="breadcrumbs-link">Главная</a>
+              </li>
+              <li class="breadcrumb-item">
+                <a href="/contracts.php" class="breadcrumbs-link">Контрактное производство</a>
+              </li>
+              <li class="breadcrumb-item active" aria-current="page">
+                <a href="#" class="breadcrumbs-link"><?= $page_title ?></a>
+              </li>
+            </ol>
+          </nav>
         </div>
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb">
-            <li class="breadcrumb-item">
-              <a href="/index.php" class="breadcrumbs-link">Главная</a>
-            </li>
-            <li class="breadcrumb-item">
-              <a href="/contracts.php" class="breadcrumbs-link">Контрактное производство</a>
-            </li>
-            <li class="breadcrumb-item active" aria-current="page">
-              <a href="#" class="breadcrumbs-link"><?= $page_title ?></a>
-            </li>
-          </ol>
-        </nav>
       </div>
     </header>

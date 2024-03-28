@@ -22,11 +22,11 @@ include_once('header-page.php'); ?>
   <?php include_once('./template-parts/features-slider.php')?>
 </section>
 <section class="section production-container">
-<picture  class="production-container-photo">
-  <source type="image/webp" srcset="img/company/production-logo.webp">
-  <source type="image/png" srcset="img/company/production-logo.png">
-  <img src="img/company/production-logo.png" alt="production" width="100%" height="100%">
-</picture>
+  <picture  class="production-container-photo">
+    <source type="image/webp" srcset="img/company/production-logo.webp">
+    <source type="image/png" srcset="img/company/production-logo.png">
+    <img src="img/company/production-logo.png" alt="production" width="100%" height="100%">
+  </picture>
   <div class="container">
     <div class="seporator"></div>
     <h2 class="section-title">Наше производство</h2>

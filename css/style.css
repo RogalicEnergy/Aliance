@@ -310,7 +310,7 @@ body {
   font-size: 3.75rem;
   font-weight: 400;
   line-height: 123%;
-  margin-top: 1.9rem;
+  margin-top: 1.5rem;
   margin-bottom: 0;
   word-spacing: 0.3rem;
   letter-spacing: .0625rem;
@@ -327,10 +327,10 @@ body {
 .steps-item {
   max-width: 100%;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  gap: 4.5625rem;
   height: 100%;
   padding: 0;
+  margin-top: 3.2rem;
 }
 
 .steps-num {
@@ -370,7 +370,6 @@ body {
   line-height: 160%;
   margin-top: .75rem;
   margin-left: .5625rem;
-  margin-bottom: 1.25rem;
   word-spacing: .0625rem;
 }
 
@@ -384,6 +383,7 @@ body {
   line-height: 160%;
   margin-left: .5625rem;
   word-spacing: .125rem;
+  margin-top: 2rem;
 }
 
 .button-link:before {
@@ -424,12 +424,13 @@ body {
 
 .production {
   margin-bottom: -1.3rem;
-  margin-top: 5.5rem;
+  margin-top: 7.5rem;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 4rem;
 }
 
 .card {
@@ -481,11 +482,12 @@ body {
 /* Контейнер основной (Собственные торговые марки) */
 
 .trademark {
-  margin-top: 6.125rem;
+  margin-top: 9.125rem;
 }
 
 .trademark-cards {
   display: flex;
+  margin-top: 3rem;
 }
 
 .trademark-card {
@@ -587,7 +589,7 @@ body {
 /* Контейнер основной (Клиенты)*/
 
 .clients {
-  margin-top: 10rem;
+  margin-top: 13rem;
 }
 
 .clients-wrapper {
@@ -603,6 +605,7 @@ body {
   list-style-type: none;
   padding: 0;
   columns: 2 auto;
+  margin-top: 2.7rem;
 }
 
 .clients-list-item {
@@ -701,6 +704,10 @@ body {
   justify-content: space-between;
 }
 
+.swiper-wrapper {
+  margin-top: 3rem;
+}
+
 /* Контейнер основной (Обратная связь)*/
 
 .bg-grey {
@@ -710,8 +717,6 @@ body {
 
 .section-cta {
   position: relative;
-  padding-top: 3.25rem;
-  padding-bottom: 5.25rem;
   margin-top: 14.375rem;
 }
 
@@ -725,8 +730,11 @@ body {
 }
 
 .cta-form-wrapper {
-  display: flex;
-  justify-content: flex-end;
+  display: grid;
+  grid-template-columns: 51.25rem;
+  justify-content: end;
+  align-items: center;
+  height: 35rem;
 
 }
 
@@ -850,7 +858,7 @@ body {
 
 
 .footer-top {
-  padding-top: 4.5rem;
+  padding-top: 2.5rem;
   padding-bottom: 3.125rem;
   display: flex;
   align-items: center;
@@ -959,6 +967,7 @@ body {
   align-items: center;
   justify-content: space-between;
   gap: 3.375rem;
+  margin-top: 0.5rem;
 }
 
 .footer-copyright,
@@ -1150,6 +1159,7 @@ background-color: rgba(41, 45, 51, 0.6);
 .breadcrumbs-link {
   color: inherit;
   text-decoration: none;
+  font-size: 14px;
 }
 
 .breadcrumb-item.active .breadcrumbs-link {
@@ -1158,13 +1168,13 @@ background-color: rgba(41, 45, 51, 0.6);
 
 ol.breadcrumb {
   padding-left: 0;
-  padding-bottom: 3.125rem;
-  margin-top: -1.5625rem;;
+  padding-bottom: 2.125rem;
+  margin-top: -1.9rem;;
 }
 
 .breadcrumb-item:not(:last-child)::after {
   content: "—";
-  margin-left: .625rem;
+  margin-left: 1px;
 }
 .page-header-bg-image .breadcrumbs-item,
 .page-header-bg-image .breadcrumb-item.active .breadcrumbs-link {
@@ -1173,7 +1183,7 @@ ol.breadcrumb {
 
 .politics {
   max-width: 92rem;
-  margin-left: 14.875rem;
+  margin: auto;
 }
 
 .text-privacy {
@@ -1220,7 +1230,7 @@ ol.breadcrumb {
 
 .production-container, .production-autohim {
   margin-top: 11.5rem;
-  margin-bottom: 13.625rem;
+  margin-bottom: 13.2rem;
   position: relative;
 }
 
@@ -1246,7 +1256,7 @@ ol.breadcrumb {
   margin-top: 1.625rem;
 }
 
-.production-container-list-item, .production-autohim-list-item, .block-autohim-list-item{
+.production-container-list-item, .production-autohim-list-item {
   display: flex;
   align-items: center;
   gap: 1.25rem;
@@ -1273,6 +1283,7 @@ ol.breadcrumb {
   height: 100%;
 }
 
+
 /* Исследовательский центр */
 
 .section-block {
@@ -1297,7 +1308,7 @@ ol.breadcrumb {
 }
 
 .centre {
-  margin-top: 13.875rem;
+  margin-top: 9.875rem;
 }
 
 .centre-card {
@@ -1344,6 +1355,10 @@ ol.breadcrumb {
   margin-top: 2.875rem;
   justify-content: flex-end;
   margin-right: 13.9375rem;
+}
+
+.centre-slider {
+  margin-bottom: 9rem;
 }
 
 
@@ -1437,17 +1452,30 @@ ol.breadcrumb {
 
 /* Автомобильная химия */
 
-.him-content-photo {
-  clip-path: inset(100px 0px 0px 100px);
+.production-him {
+  margin-top: 8rem;
+  margin-bottom: 12rem;
 }
 
+.production-him-photo {
+  position: absolute;
+  object-fit: cover;
+  min-height: 41.25rem;
+  left: 14.8rem;
+  top: 29.1875rem;
+  height: 100%;
+  width: 31.5%;
+}
+
+
 .production-him-content {
-  max-width: 45rem;
+  max-width: 44rem;
 }
 
 .production-him-content-wrapper {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 2.9rem;
 }
 
 .production-him-text {
@@ -1464,10 +1492,11 @@ ol.breadcrumb {
 .production-autohim-photo {
   position: absolute;
   right: 0;
-  top: -0.8rem;
+  top: -3.2rem;
   height: 100%;
   object-fit: cover;
   min-height: 41.25rem;
+  width: 43%;
 }
 
 /* Виды автохимии */
@@ -1484,6 +1513,17 @@ ol.breadcrumb {
   list-style-type: none;
   padding: 0;
   columns: 4 auto;
+  margin-top: 3rem;
+}
+.block-autohim-list-item {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  color: #292D33;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  padding-bottom: 1.25rem;
 }
 
 /* Медиа запросы */
@@ -1504,6 +1544,9 @@ ol.breadcrumb {
   }
   .production-container-photo {
     right: 13.625rem;
+  }
+  .page-header-bg-him {
+    background-size: 26%;
   }
 }
 
@@ -1548,6 +1591,11 @@ ol.breadcrumb {
   .section-title, .section-title-one  {
     font-size: 3.125rem;
   }
+  .production-him-photo {
+    width: 32%;
+    left: 15rem;
+    top: 33rem;
+  }
   
 }
 
@@ -1584,8 +1632,19 @@ ol.breadcrumb {
   .clients-wrapper {
     display: flex;
     flex-direction: column;
-    
   }
+  .production-him-photo {
+    width: 36%;
+    left: 9rem;
+    top: 34rem;
+  }
+  .production-him-content {
+    max-width: 37rem;
+  }
+  .production-autohim-photo {
+    width: 45%;
+  }
+
 }
 
 @media (max-width: 1100px) {
@@ -1661,7 +1720,17 @@ ol.breadcrumb {
     max-width: 80rem;
     padding-bottom: 2rem;
   }
-
+  .production-him-photo {
+    width: 38%;
+    left: 12rem;
+    top: 35rem;
+  }
+  .production-him-content {
+    max-width: 38rem;
+  }
+  .page-header-bg-him {
+    background-image: none;
+  }
 }
 
 @media (max-width: 750px) {
@@ -1944,7 +2013,7 @@ ol.breadcrumb {
     flex-direction: column;
     justify-content: center;
   }
-  .production-container-content, .production-autohim-content, .block-autohim-content {
+  .production-container-content, .block-autohim-content {
     flex-basis: 100%
   }
   .experts-content {
@@ -1973,7 +2042,29 @@ ol.breadcrumb {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
   }
-
+  .production-him-photo {
+    width: 39%;
+    left: 0rem;
+    top: 52em;
+  }
+  .production-him-content {
+    max-width: 33rem;
+  }
+  .production-autohim-content {
+    flex-basis: 50%;
+  }
+  .production-autohim-photo {
+    position: relative;
+  }
+  .production-autohim-content {
+    flex-basis: 100%;
+  }
+  .block-autohim-list {
+    columns: 3 auto;
+  }
+  #block-none {
+    display: none;
+  }
 }
 
 @media (max-width: 570px) {
@@ -2021,8 +2112,6 @@ ol.breadcrumb {
   .button-link-contracts {
     font-size: 1.5rem;
   }
-
-
   .block-card {
     margin-bottom: 3.625rem;
   }
@@ -2034,6 +2123,26 @@ ol.breadcrumb {
     max-width: 50rem;
     padding-bottom: 2rem;
   }
+  .production-him-photo {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .production-him-content {
+    display: flex;
+    flex-direction: column;
+    max-width: 55rem;
+  }
+  .production-him-content-wrapper {
+    justify-content: start;
+  }
+  .block-autohim-list {
+    columns: 2 auto;
+  }
+  .block-autohim-text {
+    width: 100%;
+  }
+
 
 }
 
@@ -2071,6 +2180,7 @@ ol.breadcrumb {
     flex-direction: column;
     align-items: start;
     gap: .625rem;
+
   }
   .footer-menu-item {
     width: 100%;
@@ -2113,6 +2223,8 @@ ol.breadcrumb {
   .block-card  {
     gap: 10px;
   }
-
+  .block-autohim-list {
+    columns: 1 auto;
+  }
 
 }

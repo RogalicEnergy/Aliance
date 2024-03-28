@@ -5,13 +5,13 @@ include_once('header-page-contract.php'); ?>
 
 
 <section class="section production-him">
+  <picture  class="production-him-photo">
+    <source type="image/webp" srcset="img/blog/blog-photo-two.webp">
+    <source type="image/png" srcset="img/blog/blog-photo-two.png">
+    <img src="img/blog/blog-photo-two.png" alt="production-him" width="100%">
+  </picture>
   <div class="container">
     <div class="production-him-content-wrapper">
-    <picture  class="production-him-photo">
-      <source type="image/webp" srcset="img/blog/blog-photo-two.webp">
-      <source type="image/png" srcset="img/blog/blog-photo-two.png">
-      <img src="img/blog/blog-photo-two.png" alt="production-him" width="80%">
-    </picture>
       <div class="production-him-content">
         <div class="seporator"></div>
         <h2 class="section-title">Контрактное производство автомобильной химии</h2>
