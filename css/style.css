@@ -170,9 +170,6 @@ body {
   transition: transform 0.2s;
 }
 
-.header-nav-link:hover::after {
-  transform: scaleX(1);
-}
 
 .header-phone {
   flex-shrink: 0;
@@ -195,7 +192,7 @@ body {
   font-style: normal;
   font-weight: 600;
   color: #fff;
-  background: #3A71D1;
+  background: #5C8EE6;
   padding: 1.7rem 3.875rem;
   border: none;
   display: inline-block;
@@ -395,9 +392,6 @@ body {
   transition: width 0.2s;
 }
 
-.button-link:hover::before {
-  width: 3.75rem;
-}
 
 .primary-buttons-wrapper {
   height: 60px;
@@ -442,13 +436,7 @@ body {
   height: 37.7rem;
 }
 
-.card:hover .card-title {
-  color: #5C8EE5;
-}
 
-.card:hover {
-  border-color: #5C8EE5;
-}
 
 .card-content {
   padding: 2.5rem 3.125rem 7.5rem;
@@ -542,18 +530,6 @@ body {
   display: none;
 }
 
-
-.trademark-card:hover {
-  border-color: #5C8EE5;
-}
-.trademark-card:hover .trademark-card-logo {
-  fill: #5C8EE6;
-}
-.trademark-card:hover .trademark-card-title {
-  color: #5C8EE6;
-}
-
-
 /* Контейнер основной (Основатель)*/
 .founder {
   position: relative;
@@ -636,9 +612,7 @@ body {
   filter: grayscale(100%);
   transition: filter 0.2s;
 }
-.clients-logo-item:hover {
-  filter: grayscale(0%);
-}
+
 .clients-logo {
   max-width: 100%;
 }
@@ -669,6 +643,7 @@ body {
   background: rgba(41, 45, 51, 0.60);
   z-index: -1 ;
 }
+
 
 .blog-card-image {
   position: absolute;
@@ -1619,6 +1594,9 @@ ol.breadcrumb {
   .trademark-card {
     grid-template-columns: auto auto;
   }
+  .trademark-cards {
+    flex-direction: column;
+  }
   .founder-content {
     max-width: 40rem;
   }
@@ -1643,6 +1621,9 @@ ol.breadcrumb {
   .production-autohim-photo {
     width: 45%;
   }
+  .cta-form-wrapper {
+    grid-template-columns: 40rem;
+  }
 
 }
 
@@ -1653,16 +1634,53 @@ ol.breadcrumb {
   .container {
     max-width: 76rem;
   }
-  .trademark-cards {
-    flex-direction: column;
-  }
+
   .trademark-card-text {
     font-size: 1.50rem;
   }
   .slider-buttons {
     display: flex;
   }
+  .steps-buttons {
+    display: flex;
+  }
+}
 
+@media (min-width: 992px) {
+  .header-nav-link:hover::after {
+    transform: scaleX(1);
+  }
+  .button:hover {
+    content: '';
+    background: #3A71D1;
+    transition: background-color 0.2s, height 0.2s;
+  }
+  .button-link:hover::before {
+    width: 3.75rem;
+  }
+  .card:hover .card-title {
+    color: #5C8EE5;
+  }
+  .card:hover {
+    border-color: #5C8EE5;
+  }
+  .trademark-card:hover {
+    border-color: #5C8EE5;
+  }
+  .trademark-card:hover .trademark-card-logo {
+    fill: #5C8EE6;
+  }
+  .trademark-card:hover .trademark-card-title {
+    color: #5C8EE6;
+  }
+  .clients-logo-item:hover {
+    filter: grayscale(0%);
+  }
+  .blog-card:hover:before {
+    content: '';
+    background-color: rgba(41, 45, 51, 0.8);
+    transition: background-color 0.2s, height 0.2s;
+  }
 }
 
 @media (max-width: 910px) {
@@ -1694,16 +1712,13 @@ ol.breadcrumb {
   width: 60px;
 }
 
-  .steps-buttons {
-    display: flex;
-  }
 
   .cta-image {
     display: none;
   }
 
   .cta-form-wrapper {
-    display: flex;
+    display: grid;
     justify-content: center;
   }
   .production-container-photo {
@@ -2140,6 +2155,12 @@ ol.breadcrumb {
   }
   .block-autohim-text {
     width: 100%;
+  }
+  .cta-form-wrapper {
+    height: auto;
+  }
+  .cta-form {
+    margin-bottom: 4.125rem;
   }
 
 
