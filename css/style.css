@@ -900,8 +900,7 @@ body {
 }
 
 .footer-seporator {
-  color: #EBEBF0;
-  background-color: #EBEBF0;
+  border: 1px solid #EBEBF0;
 }
 
 .footer-menu-title {

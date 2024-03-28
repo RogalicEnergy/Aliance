@@ -11,7 +11,7 @@
             <p class="cta-form-text">Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!</p>
             <div class="input-group-wrapper">
               <div class="input-group">
-                <input id="user-name" type="text" class="input" name="username" placeholder=" " require maxlength="100">
+                <input id="user-name" type="text" class="input" name="username" placeholder=" ">
                 <label class="input-group-label" for="user-name">Имя</label>
               </div>
               <!-- /.input-group -->
@@ -72,7 +72,7 @@
           </div>
         </div>
       </div>
-      <hr color="#EBEBF0" class="footer-seporator">
+      <hr class="footer-seporator">
       <div class="container">
         <div class="footer-bottom">
           <div class="footer-menu-wrapper">
@@ -129,7 +129,7 @@
         <!-- /.footer-bottom -->
       </div>
       <!-- /.container -->
-      <hr color="#EBEBF0" class="footer-seporator">
+      <hr class="footer-seporator">
       <div class="container">
         <div class="footer-wrapper">
           <div class="footer-legal">
@@ -183,7 +183,7 @@
         </form>
       </div>
     </div>
-    <div class="modal" id="alert-modal">
+    <div class="modal">
       <div class="modal-dialog" id="alert-modal">
         <picture width="360" height="310">
           <source type="image/webp" srcset="img/alert.webp">

@@ -40,7 +40,7 @@
         <picture class="card-image">
           <source type="image/webp" srcset="img/disinfectants.webp">
           <source type="image/jpeg" srcset="img/disinfectants.png">
-          <img src="img/disinfectants.png" alt="Дезинфицирующие средства"width="100%">
+          <img src="img/disinfectants.png" alt="Дезинфицирующие средства" width="100%">
         </picture>
       </a>
       <a href="#" class="card">
